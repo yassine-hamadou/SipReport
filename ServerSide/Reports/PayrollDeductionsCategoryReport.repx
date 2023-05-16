@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="20.1.4.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="PayrollDeductionsCategoryReport" Landscape="true" Margins="4, 6, 207, 13" PageWidth="1100" PageHeight="850" Version="20.1">
+  <Bands>
+    <Item1 Ref="1" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="207.173981">
+      <Controls>
+        <Item1 Ref="2" ControlType="XRLabel" Name="label20" Multiline="true" Text="Total Deduction" TextAlignment="MiddleLeft" SizeF="78.9348755,28.6439819" LocationFloat="1011.065,156.225983" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="3" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="4" ControlType="XRLabel" Name="label16" Multiline="true" Text="Vehicle Loan" TextAlignment="MiddleLeft" SizeF="65.45453,28.6439819" LocationFloat="945.47876,156.225586" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="5" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="6" ControlType="XRLabel" Name="label15" Multiline="true" Text="Provident Fund Loan" TextAlignment="MiddleLeft" SizeF="100.380981,28.6439819" LocationFloat="845.0979,156.225784" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="7" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="8" ControlType="XRLabel" Name="label12" Multiline="true" Text="Salary Advance" TextAlignment="MiddleLeft" SizeF="77.70941,28.6439819" LocationFloat="767.3884,156.225784" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="9" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="10" ControlType="XRLabel" Name="label11" Multiline="true" Text="TUC" TextAlignment="MiddleLeft" SizeF="32.366272,28.6439819" LocationFloat="735.0222,156.225784" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="11" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="12" ControlType="XRLabel" Name="label7" Multiline="true" Text="Bank Loan" TextAlignment="MiddleLeft" SizeF="62.1470642,28.6439362" LocationFloat="595.778564,156.2256" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="13" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="14" ControlType="XRLabel" Name="label1" Multiline="true" Text="Other Deduction" TextAlignment="MiddleLeft" SizeF="81.75491,28.6439362" LocationFloat="514.0236,156.225784" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="15" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="16" ControlType="XRLabel" Name="label3" Multiline="true" Text="S/N" TextAlignment="MiddleLeft" SizeF="29.4274464,28.6440735" LocationFloat="0.9615514,156.225861" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="17" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="18" ControlType="XRLabel" Name="label9" Multiline="true" Text="Rent Deduction" TextAlignment="MiddleLeft" SizeF="77.09662,28.6439819" LocationFloat="657.9257,156.225784" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="19" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="20" ControlType="XRLabel" Name="label8" Multiline="true" Text="Code" TextAlignment="MiddleLeft" SizeF="56.0230026,28.6440125" LocationFloat="30.388998,156.225784" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="21" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="22" ControlType="XRLabel" Name="label14" Multiline="true" Text="Full Name" TextAlignment="MiddleLeft" SizeF="218.302078,28.6440125" LocationFloat="86.412,156.225983" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="23" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="24" ControlType="XRLabel" Name="label13" Multiline="true" Text="Basic Salary" TextAlignment="MiddleLeft" SizeF="76.089386,28.6439514" LocationFloat="304.714081,156.225586" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="25" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="26" ControlType="XRLabel" Name="label19" Multiline="true" Text="Consumer Credit" TextAlignment="MiddleLeft" SizeF="82.71524,28.644043" LocationFloat="380.803467,156.2256" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="27" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="28" ControlType="XRLine" Name="line1" SizeF="1089.03833,2.08326721" LocationFloat="0.9615514,154.1426" />
+        <Item15 Ref="29" ControlType="XRLabel" Name="label21" Multiline="true" Text="Insurance" TextAlignment="MiddleLeft" SizeF="50.5049133,28.6439362" LocationFloat="463.518738,156.225677" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="30" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item15>
+        <Item16 Ref="31" ControlType="XRLine" Name="line3" SizeF="1089.51917,2.08334351" LocationFloat="0.48077336,184.869858" />
+        <Item17 Ref="32" ControlType="XRLabel" Name="label4" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="447.090576,21.0833588" LocationFloat="101.449173,112.985214" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="33" EventName="BeforePrint" PropertyName="Text" Expression="[All]" />
+          </ExpressionBindings>
+          <StylePriority Ref="34" UseFont="false" UseTextAlignment="false" />
+        </Item17>
+        <Item18 Ref="35" ControlType="XRLabel" Name="label5" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="447.090576,21.0833588" LocationFloat="101.449173,91.90189" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="36" EventName="BeforePrint" PropertyName="Text" Expression="[All]" />
+          </ExpressionBindings>
+          <StylePriority Ref="37" UseFont="false" UseTextAlignment="false" />
+        </Item18>
+        <Item19 Ref="38" ControlType="XRLabel" Name="label6" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="447.090576,21.0833588" LocationFloat="101.449173,70.8185654" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="39" EventName="BeforePrint" PropertyName="Text" Expression="[All]" />
+          </ExpressionBindings>
+          <StylePriority Ref="40" UseFont="false" UseTextAlignment="false" />
+        </Item19>
+        <Item20 Ref="41" ControlType="XRLabel" Name="label10" Text="Payroll Deduction Category Report" SizeF="411.5295,36.61346" LocationFloat="635.1181,10.0000038" Font="Arial Narrow, 21.75pt, style=Bold, charSet=0">
+          <StylePriority Ref="42" UseFont="false" />
+        </Item20>
+        <Item21 Ref="43" ControlType="XRLabel" Name="label2" Multiline="true" Text="Department:" TextAlignment="MiddleLeft" SizeF="97.60298,21.0833435" LocationFloat="3.84618831,112.985229" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="44" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item21>
+        <Item22 Ref="45" ControlType="XRLabel" Name="label17" Multiline="true" Text="Paygroup:" TextAlignment="MiddleLeft" SizeF="97.60298,21.0833588" LocationFloat="3.84618831,91.9019241" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="46" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item22>
+        <Item23 Ref="47" ControlType="XRLabel" Name="label18" Multiline="true" Text="Period:" TextAlignment="MiddleLeft" SizeF="97.60298,21.0833511" LocationFloat="3.84618831,70.8185654" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="48" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item23>
+      </Controls>
+    </Item1>
+    <Item2 Ref="49" ControlType="DetailBand" Name="detailBand1" HeightF="21.0833588">
+      <Controls>
+        <Item1 Ref="50" ControlType="XRLabel" Name="label35" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="79.06647,21.0833588" LocationFloat="1010.93329,0" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="51" EventName="BeforePrint" PropertyName="Text" Expression="[TotalDeduction]" />
+          </ExpressionBindings>
+          <StylePriority Ref="52" UseFont="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="53" ControlType="XRLabel" Name="label34" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="65.45453,21.0833588" LocationFloat="945.47876,0" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="54" EventName="BeforePrint" PropertyName="Text" Expression="[VehicleLoan]" />
+          </ExpressionBindings>
+          <StylePriority Ref="55" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="56" ControlType="XRLabel" Name="label33" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="77.70935,21.0833588" LocationFloat="767.3884,0" Font="Arial, 8.25pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="57" EventName="BeforePrint" PropertyName="Text" Expression="[SalaryAdvance]" />
+          </ExpressionBindings>
+          <StylePriority Ref="58" UseFont="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="59" ControlType="XRLabel" Name="label32" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="32.3660278,21.0833588" LocationFloat="735.0224,0" Font="Arial, 8.25pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="60" EventName="BeforePrint" PropertyName="Text" Expression="[TUC]" />
+          </ExpressionBindings>
+          <StylePriority Ref="61" UseFont="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="62" ControlType="XRLabel" Name="label31" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="77.09668,21.0833588" LocationFloat="657.9257,0" Font="Arial, 8.25pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="63" EventName="BeforePrint" PropertyName="Text" Expression="[RentDeduction]" />
+          </ExpressionBindings>
+          <StylePriority Ref="64" UseFont="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="65" ControlType="XRLabel" Name="label30" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="62.1470947,21.0833588" LocationFloat="595.7785,0" Font="Arial, 8.25pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="66" EventName="BeforePrint" PropertyName="Text" Expression="[BankLoan]" />
+          </ExpressionBindings>
+          <StylePriority Ref="67" UseFont="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="68" ControlType="XRLabel" Name="label29" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="81.75488,21.0833588" LocationFloat="514.0237,0" Font="Arial, 8.25pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="69" EventName="BeforePrint" PropertyName="Text" Expression="[OtherDeducion]" />
+          </ExpressionBindings>
+          <StylePriority Ref="70" UseFont="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="71" ControlType="XRLabel" Name="label27" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="82.71524,21.0833588" LocationFloat="380.803467,0" Font="Arial, 8.25pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="72" EventName="BeforePrint" PropertyName="Text" Expression="[ConsumerCredit]" />
+          </ExpressionBindings>
+          <StylePriority Ref="73" UseFont="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="74" ControlType="XRLabel" Name="label26" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="75.4766541,21.0833588" LocationFloat="305.3268,0" Font="Arial, 8.25pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="75" EventName="BeforePrint" PropertyName="Text" Expression="[BasicSalary]" />
+          </ExpressionBindings>
+          <StylePriority Ref="76" UseFont="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="77" ControlType="XRLabel" Name="label25" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="218.302078,21.0833588" LocationFloat="86.412,0" Font="Arial, 8.25pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="78" EventName="BeforePrint" PropertyName="Text" Expression="[FullName]" />
+          </ExpressionBindings>
+          <StylePriority Ref="79" UseFont="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="80" ControlType="XRLabel" Name="label24" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="56.0230026,21.0833588" LocationFloat="30.388998,0" Font="Arial, 8.25pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="81" EventName="BeforePrint" PropertyName="Text" Expression="[Code]" />
+          </ExpressionBindings>
+          <StylePriority Ref="82" UseFont="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="83" ControlType="XRLabel" Name="label23" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="100.380981,21.0833588" LocationFloat="845.0979,0" Font="Arial Narrow, 8.25pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="84" EventName="BeforePrint" PropertyName="Text" Expression="[ProvidentFundLoan]" />
+          </ExpressionBindings>
+          <StylePriority Ref="85" UseFont="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="86" ControlType="XRLabel" Name="label22" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="30.388998,21.0833588" LocationFloat="0,0" Font="Arial, 8.25pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="87" EventName="BeforePrint" PropertyName="Text" Expression="[S]/[N]" />
+          </ExpressionBindings>
+          <StylePriority Ref="88" UseFont="false" UseTextAlignment="false" />
+        </Item13>
+        <Item14 Ref="89" ControlType="XRLabel" Name="label28" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="50.5049744,21.0833588" LocationFloat="463.5187,0" Font="Arial, 8.25pt, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="90" EventName="BeforePrint" PropertyName="Text" Expression="[Insurance]" />
+          </ExpressionBindings>
+          <StylePriority Ref="91" UseFont="false" UseTextAlignment="false" />
+        </Item14>
+      </Controls>
+    </Item2>
+    <Item3 Ref="92" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="12.9807692">
+      <Controls>
+        <Item1 Ref="93" ControlType="XRPageInfo" Name="pageInfo1" PageInfo="DateTime" TextFormatString="{0:dddd, MMMM d, yyyy hh:mm tt}" TextAlignment="MiddleLeft" SizeF="198.096588,12.7115412" LocationFloat="0,0" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" ForeColor="Black" Padding="2,2,0,0,100">
+          <StylePriority Ref="94" UseFont="false" UseForeColor="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="95" ControlType="XRPageInfo" Name="pageInfo3" SizeF="26.208313,12.7115393" LocationFloat="1063.79175,0" Padding="2,2,0,0,100" />
+      </Controls>
+    </Item3>
+  </Bands>
+</XtraReportsLayoutSerializer>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="20.1.4.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v20.1, Version=20.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="PayrollAnalysisSheetReport" Margins="3, 5, 196, 13" PageWidth="850" PageHeight="1100" Version="20.1">
+  <Bands>
+    <Item1 Ref="1" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="196.282166">
+      <Controls>
+        <Item1 Ref="2" ControlType="XRLabel" Name="label12" Multiline="true" Text="Notch:" TextAlignment="MiddleLeft" SizeF="111.144653,21.0833435" LocationFloat="4.19207,169.124786" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="3" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="4" ControlType="XRLabel" Name="label20" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="434.991028,21.0833588" LocationFloat="115.336861,169.124725" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="5" EventName="BeforePrint" PropertyName="Text" Expression="[All]" />
+          </ExpressionBindings>
+          <StylePriority Ref="6" UseFont="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="7" ControlType="XRLabel" Name="label10" Text="Basic Pay Reconciliaition" SizeF="300.151031,36.61346" LocationFloat="499.1642,48.17787" Font="Arial Narrow, 21.75pt, style=Bold, charSet=0">
+          <StylePriority Ref="8" UseFont="false" />
+        </Item3>
+        <Item4 Ref="9" ControlType="XRLabel" Name="label18" Multiline="true" Text="Period:" TextAlignment="MiddleLeft" SizeF="111.144638,21.0833511" LocationFloat="4.19198275,105.945175" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="10" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="11" ControlType="XRLabel" Name="label6" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="434.991028,21.0833588" LocationFloat="115.336723,105.945175" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="12" EventName="BeforePrint" PropertyName="Text" Expression="[year]" />
+          </ExpressionBindings>
+          <StylePriority Ref="13" UseFont="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="14" ControlType="XRLabel" Name="label4" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="434.991028,21.0833664" LocationFloat="115.336845,127.028542" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="15" EventName="BeforePrint" PropertyName="Text" Expression="[all]" />
+          </ExpressionBindings>
+          <StylePriority Ref="16" UseFont="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="17" ControlType="XRLabel" Name="label2" Multiline="true" Text="Pay Group:" TextAlignment="MiddleLeft" SizeF="111.144653,21.0833511" LocationFloat="4.19207,127.028542" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="18" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="19" ControlType="XRLabel" Name="label1" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="434.991028,21.0833588" LocationFloat="115.336723,148.041382" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="20" EventName="BeforePrint" PropertyName="Text" Expression="[all]" />
+          </ExpressionBindings>
+          <StylePriority Ref="21" UseFont="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="22" ControlType="XRLabel" Name="label3" Multiline="true" Text="Salary Grade:" TextAlignment="MiddleLeft" SizeF="111.144638,21.0833588" LocationFloat="4.19199467,148.041382" Font="Arial Narrow, 12pt, style=Bold, charSet=0" Padding="3,3,3,3,100">
+          <StylePriority Ref="23" UseFont="false" UsePadding="false" UseTextAlignment="false" />
+        </Item9>
+      </Controls>
+    </Item1>
+    <Item2 Ref="24" ControlType="DetailBand" Name="detailBand1" />
+    <Item3 Ref="25" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="12.9807692">
+      <Controls>
+        <Item1 Ref="26" ControlType="XRPageInfo" Name="pageInfo1" PageInfo="DateTime" TextFormatString="{0:dddd, MMMM d, yyyy hh:mm tt}" TextAlignment="MiddleLeft" SizeF="198.096588,12.7115412" LocationFloat="0,0" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" ForeColor="Black" Padding="2,2,0,0,100">
+          <StylePriority Ref="27" UseFont="false" UseForeColor="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="28" ControlType="XRPageInfo" Name="pageInfo3" SizeF="30.208374,12.7115393" LocationFloat="808.7916,0" Padding="2,2,0,0,100" />
+      </Controls>
+    </Item3>
+  </Bands>
+</XtraReportsLayoutSerializer>

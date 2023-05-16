@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="21.2.6.0" Ref="0" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="ProductionStatisticsReport" Margins="0, 0, 117, 100" PageWidth="850" PageHeight="1100" Version="21.2">
+  <Extensions>
+    <Item1 Ref="1" Key="VSReportExtInfo" Value=".repx" />
+  </Extensions>
+  <Parameters>
+    <Item1 Ref="3" Visible="false" Description="WEEK DAY" ValueInfo="2023-03-28" Name="weekday" Type="#Ref-2" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="4" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="116.666664" />
+    <Item2 Ref="5" ControlType="DetailBand" Name="detailBand1" HeightF="24.3747158">
+      <Controls>
+        <Item1 Ref="6" ControlType="XRLabel" Name="label1" TextFormatString="{0:d}" Multiline="true" Text="label1" SizeF="190.8334,23" LocationFloat="0,1.37471521" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="7" EventName="BeforePrint" PropertyName="Text" Expression="?weekday" />
+          </ExpressionBindings>
+        </Item1>
+      </Controls>
+    </Item2>
+    <Item3 Ref="8" ControlType="BottomMarginBand" Name="bottomMarginBand1" />
+    <Item4 Ref="9" ControlType="GroupHeaderBand" Name="GroupHeader1" HeightF="153.12532">
+      <Controls>
+        <Item1 Ref="10" ControlType="XRLabel" Name="xrLabel2" Multiline="true" CanGrow="false" Text="Products  Statistics" TextAlignment="MiddleCenter" SizeF="153.333435,24.7919922" LocationFloat="48.33334,32.5" Font="Times New Roman, 10.8pt, charSet=0" ForeColor="Red" BackColor="Transparent" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="11" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="12" ControlType="XRLabel" Name="xrLabel10" Multiline="true" CanGrow="false" Text="WASTE" TextAlignment="MiddleCenter" SizeF="142.500092,24.7919922" LocationFloat="231.666672,80.8333359" Font="Times New Roman, 10.8pt, charSet=0" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="13" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="14" ControlType="XRLabel" Name="xrLabel11" Multiline="true" CanGrow="false" Text="OR" TextAlignment="MiddleCenter" SizeF="168.333435,24.7919922" LocationFloat="450.833344,80.8333359" Font="Times New Roman, 10.8pt, charSet=0" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="15" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="16" ControlType="XRLabel" Name="label28" Multiline="true" CanGrow="false" Text="TOTAL" TextAlignment="MiddleCenter" SizeF="103.333466,24.7919922" LocationFloat="720.833252,80.8333359" Font="Times New Roman, 10.8pt, charSet=0" ForeColor="Black" BackColor="Transparent" Padding="2,2,0,0,100" Borders="None">
+          <StylePriority Ref="17" UseFont="false" UseForeColor="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="18" ControlType="XRLabel" Name="label48" Multiline="true" CanGrow="false" Text="Actual" TextAlignment="MiddleCenter" SizeF="161.666626,24.7919922" LocationFloat="688.3334,128.333328" Font="Times New Roman, 10.8pt, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="19" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="20" ControlType="XRLabel" Name="xrLabel12" Multiline="true" CanGrow="false" Text="Plan" TextAlignment="MiddleCenter" SizeF="135.833221,24.7919922" LocationFloat="418.333374,128.333328" Font="Times New Roman, 10.8pt, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="21" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="22" ControlType="XRLabel" Name="xrLabel8" Multiline="true" CanGrow="false" Text="Plan" TextAlignment="MiddleCenter" SizeF="97.5000458,24.7919922" LocationFloat="190.833435,128.333328" Font="Times New Roman, 10.8pt, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="23" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="24" ControlType="XRLabel" Name="xrLabel9" Multiline="true" CanGrow="false" Text="Actual" TextAlignment="MiddleCenter" SizeF="129.999878,24.7919922" LocationFloat="288.3335,128.333328" Font="Times New Roman, 10.8pt, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="25" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="26" ControlType="XRLabel" Name="label50" Multiline="true" CanGrow="false" Text="Actual" TextAlignment="MiddleCenter" SizeF="134.166687,24.7919922" LocationFloat="554.1667,128.333328" Font="Times New Roman, 10.8pt, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="27" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="28" ControlType="XRLabel" Name="xrLabel7" Multiline="true" CanGrow="false" Text="Date" TextAlignment="MiddleLeft" SizeF="190.83342,24.7919922" LocationFloat="1.90734863E-05,128.333328" Font="Times New Roman, 10.8pt, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="29" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item10>
+      </Controls>
+    </Item4>
+  </Bands>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v21.2" Ref="2" Content="System.DateTime" Type="System.Type" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

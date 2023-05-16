@@ -1,0 +1,764 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Reports\EquipmentDefectReport.Designer.cs" />
+    <Compile Remove="Reports\EquipmentDefectReportt.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="PredefinedReports\FaultEntryFleetHistoryReport.repx" />
+    <None Remove="PredefinedReports\FaultEntrySummaryReport.repx" />
+    <None Remove="PredefinedReports\FautEntryPendingReport.repx" />
+    <None Remove="PredefinedReports\FautEntrySolvedReport.repx" />
+    <None Remove="PredefinedReports\FleetScheduleReport.repx" />
+    <None Remove="PredefinedReports\TestReport.repx" />
+    <None Remove="Reports\AgeDetailByYearReport.repx" />
+    <None Remove="Reports\AllEquipmentSummary.repx" />
+    <None Remove="Reports\AppraisalPerformanceByAppraisalTypeReport.repx" />
+    <None Remove="Reports\AppraisalPerformanceByEmployeeReport.repx" />
+    <None Remove="Reports\AppraisalPerformanceSummaryReport.repx" />
+    <None Remove="Reports\AppraisalSummaryReport.repx" />
+    <None Remove="Reports\BbasicPayRecounciliationReport.repx" />
+    <None Remove="Reports\BenefitTransactionHistoryReport.repx" />
+    <None Remove="Reports\ChangeoutByModel.repx" />
+    <None Remove="Reports\Changeoutbyrefilltypemodel.repx" />
+    <None Remove="Reports\ChangeoutReport.repx" />
+    <None Remove="Reports\CompanyLoansReport.repx" />
+    <None Remove="Reports\CompensationBenefitByDepartmentReport.repx" />
+    <None Remove="Reports\CompensationBenefitByEmployeeReport.repx" />
+    <None Remove="Reports\CompensationBenefitByJobTitleReport.repx" />
+    <None Remove="Reports\DailyPMComplianceReport.repx" />
+    <None Remove="Reports\Daily_HME_KPIReport.repx" />
+    <None Remove="Reports\DeductionTransactionHistoryReport.repx" />
+    <None Remove="Reports\EmployeeAgeRangeReport.repx" />
+    <None Remove="Reports\EmployeeAgeSummaryReport.repx" />
+    <None Remove="Reports\EmployeeByGenderReport.repx" />
+    <None Remove="Reports\EmployeeDivisionReport.repx" />
+    <None Remove="Reports\EmployeeDivisionSummaryReport.repx" />
+    <None Remove="Reports\EmployeeFamilyReport.repx" />
+    <None Remove="Reports\EmployeeFamilySummaryReport.repx" />
+    <None Remove="Reports\EmployeeListReport.repx" />
+    <None Remove="Reports\EmployeeListSummaryReport.repx" />
+    <None Remove="Reports\EquipmentDefect.repx" />
+    <None Remove="Reports\EquipmentDefectReport.repx" />
+    <None Remove="Reports\EquipmentDefectReportt.repx" />
+    <None Remove="Reports\EquipmentTransactionReport.repx" />
+    <None Remove="Reports\FaultByCustodianDetail.repx" />
+    <None Remove="Reports\FaultByCustodianSummary.repx" />
+    <None Remove="Reports\FaultByDowntimeReport.repx" />
+    <None Remove="Reports\FaultByModelSummary.repx" />
+    <None Remove="Reports\FaultEntryFleetHistoryReport.repx" />
+    <None Remove="Reports\FaultEntryPendingReport.repx" />
+    <None Remove="Reports\FaultEntrySolvedReport.repx" />
+    <None Remove="Reports\FaultEntrySummaryReport.repx" />
+    <None Remove="Reports\FleetScheduleReport.repx" />
+    <None Remove="Reports\GRAReport.repx" />
+    <None Remove="Reports\HourlyReport.repx" />
+    <None Remove="Reports\HoursReport.repx" />
+    <None Remove="Reports\LeaveDepartmentReport.repx" />
+    <None Remove="Reports\LeaveEmployeeReport.repx" />
+    <None Remove="Reports\LeaveSummaryReport.repx" />
+    <None Remove="Reports\ListEquipmentSummary.repx" />
+    <None Remove="Reports\MedicalEmployeeReport.repx" />
+    <None Remove="Reports\MedicalSummaryReport.repx" />
+    <None Remove="Reports\MedicalTypeReport.repx" />
+    <None Remove="Reports\MemberListReport.repx" />
+    <None Remove="Reports\MeteringByEquipment.repx" />
+    <None Remove="Reports\meteringbymodelclasssummary.repx" />
+    <None Remove="Reports\MeteringbyModelDetail.repx" />
+    <None Remove="Reports\Meteringbymodelsummary.repx" />
+    <None Remove="Reports\NoteCategoryReport.repx" />
+    <None Remove="Reports\NotesEmployeeReport.repx" />
+    <None Remove="Reports\NotesSummaryReport.repx" />
+    <None Remove="Reports\NumberOfCarperManufacturerReport.repx" />
+    <None Remove="Reports\PayrollAnalysisSheetByDepartmentReport.repx" />
+    <None Remove="Reports\PayrollAnalysisSheetByRegionReport.repx" />
+    <None Remove="Reports\PayrollAnalysisSheetReport.repx" />
+    <None Remove="Reports\PayrollBankReport.repx" />
+    <None Remove="Reports\PayrollBankSummaryReport.repx" />
+    <None Remove="Reports\PayrollBenefitDetailsReport.repx" />
+    <None Remove="Reports\PayrollBenefitReport.repx" />
+    <None Remove="Reports\PayrollCumulativePFReport.repx" />
+    <None Remove="Reports\PayrollDeductionsCategoryReport.repx" />
+    <None Remove="Reports\PayrollDeductionsDetailsReport.repx" />
+    <None Remove="Reports\PayrollDeductionsReport.repx" />
+    <None Remove="Reports\PayrollJournalByDepartmentReport.repx" />
+    <None Remove="Reports\PayrollJournalDetailPaygroupReport.repx" />
+    <None Remove="Reports\PayrollJournalDetailReport.repx" />
+    <None Remove="Reports\PayrollLoanDetailsReport.repx" />
+    <None Remove="Reports\PayrollNationalJournalDetailReport.repx" />
+    <None Remove="Reports\PayrollSavingSchemesReport.repx" />
+    <None Remove="Reports\PhotoDailyTransactionsReportNew.repx" />
+    <None Remove="Reports\PhotoSalesByCategoryReport.repx" />
+    <None Remove="Reports\ProductionStatisticsReport.repx" />
+    <None Remove="Reports\RecruitmentSelectionJobTitleReport.repx" />
+    <None Remove="Reports\RecruitmentSelectReferenceReport.repx" />
+    <None Remove="Reports\SalesByCategoryReport.repx" />
+    <None Remove="Reports\ScheduleByLocationSummaryReport.repx" />
+    <None Remove="Reports\ScheduleByModelSummaryReport.repx" />
+    <None Remove="Reports\ScheduleByServiceTypeReport.repx" />
+    <None Remove="Reports\Scheduletransaction.repx" />
+    <None Remove="Reports\ServiceTypeReport.repx" />
+    <None Remove="Reports\SNITPayrollReport.repx" />
+    <None Remove="Reports\TEST.repx" />
+    <None Remove="Reports\TrainingDevelopmentByReferenceReport.repx" />
+    <None Remove="Reports\TrainingDevelopmentBySummaryReport.repx" />
+    <None Remove="Reports\TrainingDevelopmentByTrainingTypeReport.repx" />
+    <None Remove="Reports\WarrantyEndOfLifeReport.repx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="PredefinedReports\TestReport.repx" />
+    <EmbeddedResource Include="Reports\AgeDetailByYearReport.repx" />
+    <EmbeddedResource Include="Reports\AllEquipmentSummary.repx" />
+    <EmbeddedResource Include="Reports\AppraisalPerformanceByAppraisalTypeReport.repx" />
+    <EmbeddedResource Include="Reports\AppraisalPerformanceByEmployeeReport.repx" />
+    <EmbeddedResource Include="Reports\AppraisalSummaryReport.repx" />
+    <EmbeddedResource Include="Reports\BbasicPayRecounciliationReport.repx" />
+    <EmbeddedResource Include="Reports\BenefitTransactionHistoryReport.repx" />
+    <EmbeddedResource Include="Reports\ChangeoutByModel.repx" />
+    <EmbeddedResource Include="Reports\Changeoutbyrefilltypemodel.repx" />
+    <EmbeddedResource Include="Reports\ChangeoutReport.repx" />
+    <EmbeddedResource Include="Reports\CompanyLoansReport.repx" />
+    <EmbeddedResource Include="Reports\CompensationBenefitByDepartmentReport.repx" />
+    <EmbeddedResource Include="Reports\CompensationBenefitByEmployeeReport.repx" />
+    <EmbeddedResource Include="Reports\CompensationBenefitByJobTitleReport.repx" />
+    <EmbeddedResource Include="Reports\DailyPMComplianceReport.repx" />
+    <EmbeddedResource Include="Reports\Daily_HME_KPIReport.repx" />
+    <EmbeddedResource Include="Reports\DeductionTransactionHistoryReport.repx" />
+    <EmbeddedResource Include="Reports\EmployeeAgeRangeReport.repx" />
+    <EmbeddedResource Include="Reports\EmployeeAgeSummaryReport.repx" />
+    <EmbeddedResource Include="Reports\EmployeeByGenderReport.repx" />
+    <EmbeddedResource Include="Reports\EmployeeDivisionReport.repx" />
+    <EmbeddedResource Include="Reports\EmployeeDivisionSummaryReport.repx" />
+    <EmbeddedResource Include="Reports\EmployeeFamilyReport.repx" />
+    <EmbeddedResource Include="Reports\EmployeeFamilySummaryReport.repx" />
+    <EmbeddedResource Include="Reports\EmployeeListReport.repx" />
+    <EmbeddedResource Include="Reports\EmployeeListSummaryReport.repx" />
+    <EmbeddedResource Include="Reports\EquipmentDefect.repx" />
+    <EmbeddedResource Include="Reports\EquipmentTransactionReport.repx" />
+    <EmbeddedResource Include="Reports\FaultByCustodianDetail.repx" />
+    <EmbeddedResource Include="Reports\FaultByCustodianSummary.repx" />
+    <EmbeddedResource Include="Reports\FaultByDowntimeReport.repx" />
+    <EmbeddedResource Include="Reports\FaultByModelSummary.repx" />
+    <EmbeddedResource Include="Reports\FaultEntryFleetHistoryReport.repx" />
+    <EmbeddedResource Include="Reports\FaultEntryPendingReport.repx" />
+    <EmbeddedResource Include="Reports\FaultEntrySolvedReport.repx" />
+    <EmbeddedResource Include="Reports\FaultEntrySummaryReport.repx" />
+    <EmbeddedResource Include="Reports\FleetScheduleReport.repx" />
+    <EmbeddedResource Include="Reports\GRAReport.repx" />
+    <EmbeddedResource Include="Reports\HoursReport.repx" />
+    <EmbeddedResource Include="Reports\LeaveDepartmentReport.repx" />
+    <EmbeddedResource Include="Reports\LeaveEmployeeReport.repx" />
+    <EmbeddedResource Include="Reports\LeaveSummaryReport.repx" />
+    <EmbeddedResource Include="Reports\ListEquipmentSummary.repx" />
+    <EmbeddedResource Include="Reports\MedicalEmployeeReport.repx" />
+    <EmbeddedResource Include="Reports\MedicalSummaryReport.repx" />
+    <EmbeddedResource Include="Reports\MedicalTypeReport.repx" />
+    <EmbeddedResource Include="Reports\MemberListReport.repx" />
+    <EmbeddedResource Include="Reports\meteringbymodelclasssummary.repx" />
+    <EmbeddedResource Include="Reports\MeteringbyModelDetail.repx" />
+    <EmbeddedResource Include="Reports\Meteringbymodelsummary.repx" />
+    <EmbeddedResource Include="Reports\MeteringByEquipment.repx" />
+    <EmbeddedResource Include="Reports\NoteCategoryReport.repx" />
+    <EmbeddedResource Include="Reports\NotesEmployeeReport.repx" />
+    <EmbeddedResource Include="Reports\NotesSummaryReport.repx" />
+    <EmbeddedResource Include="Reports\NumberOfCarperManufacturerReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollAnalysisSheetByDepartmentReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollAnalysisSheetByRegionReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollAnalysisSheetReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollBankReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollBankSummaryReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollBenefitDetailsReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollBenefitReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollCumulativePFReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollDeductionsCategoryReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollDeductionsDetailsReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollDeductionsReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollJournalByDepartmentReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollJournalDetailPaygroupReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollJournalDetailReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollLoanDetailsReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollNationalJournalDetailReport.repx" />
+    <EmbeddedResource Include="Reports\PayrollSavingSchemesReport.repx" />
+    <EmbeddedResource Include="Reports\ProductionStatisticsReport.repx" />
+    <EmbeddedResource Include="Reports\RecruitmentSelectionJobTitleReport.repx" />
+    <EmbeddedResource Include="Reports\RecruitmentSelectReferenceReport.repx" />
+    <EmbeddedResource Include="Reports\ScheduleByLocationSummaryReport.repx" />
+    <EmbeddedResource Include="Reports\ScheduleByModelSummaryReport.repx" />
+    <EmbeddedResource Include="Reports\ScheduleByServiceTypeReport.repx" />
+    <EmbeddedResource Include="Reports\Scheduletransaction.repx" />
+    <EmbeddedResource Include="Reports\ServiceTypeReport.repx" />
+    <EmbeddedResource Include="Reports\SNITPayrollReport.repx" />
+    <EmbeddedResource Include="Reports\TEST.repx" />
+    <EmbeddedResource Include="Reports\TrainingDevelopmentByReferenceReport.repx" />
+    <EmbeddedResource Include="Reports\TrainingDevelopmentBySummaryReport.repx" />
+    <EmbeddedResource Include="Reports\TrainingDevelopmentByTrainingTypeReport.repx" />
+    <EmbeddedResource Include="Reports\WarrantyEndOfLifeReport.repx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="21.2.6" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="PredefinedReports\FaultEntryFleetHistoryReport.cs">
+      <DependentUpon>FaultEntryFleetHistoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\FaultEntryFleetHistoryReport.Designer.cs">
+      <DependentUpon>FaultEntryFleetHistoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\FaultEntrySummaryReport.cs">
+      <DependentUpon>FaultEntrySummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\FaultEntrySummaryReport.Designer.cs">
+      <DependentUpon>FaultEntrySummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\TestReport.cs">
+      <DependentUpon>TestReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="PredefinedReports\TestReport.Designer.cs">
+      <DependentUpon>TestReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AgeDetailByYearReport.cs">
+      <DependentUpon>AgeDetailByYearReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AgeDetailByYearReport.Designer.cs">
+      <DependentUpon>AgeDetailByYearReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AllEquipmentSummary.cs">
+      <DependentUpon>AllEquipmentSummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AllEquipmentSummary.Designer.cs">
+      <DependentUpon>AllEquipmentSummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AppraisalPerformanceByAppraisalTypeReport.cs">
+      <DependentUpon>AppraisalPerformanceByAppraisalTypeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AppraisalPerformanceByAppraisalTypeReport.Designer.cs">
+      <DependentUpon>AppraisalPerformanceByAppraisalTypeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AppraisalPerformanceByEmployeeReport.cs">
+      <DependentUpon>AppraisalPerformanceByEmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AppraisalPerformanceByEmployeeReport.Designer.cs">
+      <DependentUpon>AppraisalPerformanceByEmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AppraisalSummaryReport.cs">
+      <DependentUpon>AppraisalSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AppraisalSummaryReport.Designer.cs">
+      <DependentUpon>AppraisalSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\BbasicPayRecounciliationReport.cs">
+      <DependentUpon>BbasicPayRecounciliationReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\BbasicPayRecounciliationReport.Designer.cs">
+      <DependentUpon>BbasicPayRecounciliationReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\BenefitTransactionHistoryReport.cs">
+      <DependentUpon>BenefitTransactionHistoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\BenefitTransactionHistoryReport.Designer.cs">
+      <DependentUpon>BenefitTransactionHistoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ChangeoutByModel.cs">
+      <DependentUpon>ChangeoutByModel.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ChangeoutByModel.Designer.cs">
+      <DependentUpon>ChangeoutByModel.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\Changeoutbyrefilltypemodel.cs">
+      <DependentUpon>Changeoutbyrefilltypemodel.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\Changeoutbyrefilltypemodel.Designer.cs">
+      <DependentUpon>Changeoutbyrefilltypemodel.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ChangeoutReport.cs">
+      <DependentUpon>ChangeoutReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ChangeoutReport.Designer.cs">
+      <DependentUpon>ChangeoutReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\CompanyLoansReport.cs">
+      <DependentUpon>CompanyLoansReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\CompanyLoansReport.Designer.cs">
+      <DependentUpon>CompanyLoansReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\CompensationBenefitByDepartmentReport.cs">
+      <DependentUpon>CompensationBenefitByDepartmentReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\CompensationBenefitByDepartmentReport.Designer.cs">
+      <DependentUpon>CompensationBenefitByDepartmentReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\CompensationBenefitByEmployeeReport.cs">
+      <DependentUpon>CompensationBenefitByEmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\CompensationBenefitByEmployeeReport.Designer.cs">
+      <DependentUpon>CompensationBenefitByEmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\CompensationBenefitByJobTitleReport.cs">
+      <DependentUpon>CompensationBenefitByJobTitleReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\CompensationBenefitByJobTitleReport.Designer.cs">
+      <DependentUpon>CompensationBenefitByJobTitleReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\DailyPMComplianceReport.cs">
+      <DependentUpon>DailyPMComplianceReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\DailyPMComplianceReport.Designer.cs">
+      <DependentUpon>DailyPMComplianceReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\Daily_HME_KPIReport.cs">
+      <DependentUpon>Daily_HME_KPIReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\Daily_HME_KPIReport.Designer.cs">
+      <DependentUpon>Daily_HME_KPIReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\DeductionTransactionHistoryReport.cs">
+      <DependentUpon>DeductionTransactionHistoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\DeductionTransactionHistoryReport.Designer.cs">
+      <DependentUpon>DeductionTransactionHistoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeAgeRangeReport.cs">
+      <DependentUpon>EmployeeAgeRangeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeAgeRangeReport.Designer.cs">
+      <DependentUpon>EmployeeAgeRangeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeAgeSummaryReport.cs">
+      <DependentUpon>EmployeeAgeSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeAgeSummaryReport.Designer.cs">
+      <DependentUpon>EmployeeAgeSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeByGenderReport.cs">
+      <DependentUpon>EmployeeByGenderReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeByGenderReport.Designer.cs">
+      <DependentUpon>EmployeeByGenderReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeDivisionReport.cs">
+      <DependentUpon>EmployeeDivisionReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeDivisionReport.Designer.cs">
+      <DependentUpon>EmployeeDivisionReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeDivisionSummaryReport.cs">
+      <DependentUpon>EmployeeDivisionSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeDivisionSummaryReport.Designer.cs">
+      <DependentUpon>EmployeeDivisionSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeFamilyReport.cs">
+      <DependentUpon>EmployeeFamilyReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeFamilyReport.Designer.cs">
+      <DependentUpon>EmployeeFamilyReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeFamilySummaryReport.cs">
+      <DependentUpon>EmployeeFamilySummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeFamilySummaryReport.Designer.cs">
+      <DependentUpon>EmployeeFamilySummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeListReport.cs">
+      <DependentUpon>EmployeeListReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeListReport.Designer.cs">
+      <DependentUpon>EmployeeListReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeListSummaryReport.cs">
+      <DependentUpon>EmployeeListSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EmployeeListSummaryReport.Designer.cs">
+      <DependentUpon>EmployeeListSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EquipmentDefect.cs">
+      <DependentUpon>EquipmentDefect.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EquipmentDefect.Designer.cs">
+      <DependentUpon>EquipmentDefect.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EquipmentDefectReportt.Designer.cs">
+      <DependentUpon>EquipmentDefectReportt.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EquipmentTransactionReport.cs">
+      <DependentUpon>EquipmentTransactionReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EquipmentTransactionReport.Designer.cs">
+      <DependentUpon>EquipmentTransactionReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultByCustodianDetail.cs">
+      <DependentUpon>FaultByCustodianDetail.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultByCustodianDetail.Designer.cs">
+      <DependentUpon>FaultByCustodianDetail.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultByCustodianSummary.cs">
+      <DependentUpon>FaultByCustodianSummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultByCustodianSummary.Designer.cs">
+      <DependentUpon>FaultByCustodianSummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultByDowntimeReport.cs">
+      <DependentUpon>FaultByDowntimeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultByDowntimeReport.Designer.cs">
+      <DependentUpon>FaultByDowntimeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultByModelSummary.cs">
+      <DependentUpon>FaultByModelSummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultByModelSummary.Designer.cs">
+      <DependentUpon>FaultByModelSummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultEntryFleetHistoryReport.cs">
+      <DependentUpon>FaultEntryFleetHistoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultEntryFleetHistoryReport.Designer.cs">
+      <DependentUpon>FaultEntryFleetHistoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultEntryPendingReport.cs">
+      <DependentUpon>FaultEntryPendingReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultEntryPendingReport.Designer.cs">
+      <DependentUpon>FaultEntryPendingReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultEntrySolvedReport.cs">
+      <DependentUpon>FaultEntrySolvedReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultEntrySolvedReport.Designer.cs">
+      <DependentUpon>FaultEntrySolvedReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultEntrySummaryReport.cs">
+      <DependentUpon>FaultEntrySummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FaultEntrySummaryReport.Designer.cs">
+      <DependentUpon>FaultEntrySummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FleetScheduleReport.cs">
+      <DependentUpon>FleetScheduleReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\FleetScheduleReport.Designer.cs">
+      <DependentUpon>FleetScheduleReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\GRAReport.cs">
+      <DependentUpon>GRAReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\GRAReport.Designer.cs">
+      <DependentUpon>GRAReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\HoursReport.cs">
+      <DependentUpon>HoursReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\HoursReport.Designer.cs">
+      <DependentUpon>HoursReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\LeaveDepartmentReport.cs">
+      <DependentUpon>LeaveDepartmentReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\LeaveDepartmentReport.Designer.cs">
+      <DependentUpon>LeaveDepartmentReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\LeaveEmployeeReport.cs">
+      <DependentUpon>LeaveEmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\LeaveEmployeeReport.Designer.cs">
+      <DependentUpon>LeaveEmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\LeaveSummaryReport.cs">
+      <DependentUpon>LeaveSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\LeaveSummaryReport.Designer.cs">
+      <DependentUpon>LeaveSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ListEquipmentSummary.cs">
+      <DependentUpon>ListEquipmentSummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ListEquipmentSummary.Designer.cs">
+      <DependentUpon>ListEquipmentSummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MedicalEmployeeReport.cs">
+      <DependentUpon>MedicalEmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MedicalEmployeeReport.Designer.cs">
+      <DependentUpon>MedicalEmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MedicalSummaryReport.cs">
+      <DependentUpon>MedicalSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MedicalSummaryReport.Designer.cs">
+      <DependentUpon>MedicalSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MedicalTypeReport.cs">
+      <DependentUpon>MedicalTypeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MedicalTypeReport.Designer.cs">
+      <DependentUpon>MedicalTypeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MemberListReport.cs">
+      <DependentUpon>MemberListReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MemberListReport.Designer.cs">
+      <DependentUpon>MemberListReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\meteringbymodelclasssummary.cs">
+      <DependentUpon>meteringbymodelclasssummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\meteringbymodelclasssummary.Designer.cs">
+      <DependentUpon>meteringbymodelclasssummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MeteringbyModelDetail.cs">
+      <DependentUpon>MeteringbyModelDetail.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MeteringbyModelDetail.Designer.cs">
+      <DependentUpon>MeteringbyModelDetail.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\Meteringbymodelsummary.cs">
+      <DependentUpon>Meteringbymodelsummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\Meteringbymodelsummary.Designer.cs">
+      <DependentUpon>Meteringbymodelsummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MeteringByEquipment.cs">
+      <DependentUpon>MeteringByEquipment.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MeteringByEquipment.Designer.cs">
+      <DependentUpon>MeteringByEquipment.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\NoteCategoryReport.cs">
+      <DependentUpon>NoteCategoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\NoteCategoryReport.Designer.cs">
+      <DependentUpon>NoteCategoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\NotesEmployeeReport.cs">
+      <DependentUpon>NotesEmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\NotesEmployeeReport.Designer.cs">
+      <DependentUpon>NotesEmployeeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\NotesSummaryReport.cs">
+      <DependentUpon>NotesSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\NotesSummaryReport.Designer.cs">
+      <DependentUpon>NotesSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\NumberOfCarperManufacturerReport.cs">
+      <DependentUpon>NumberOfCarperManufacturerReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\NumberOfCarperManufacturerReport.Designer.cs">
+      <DependentUpon>NumberOfCarperManufacturerReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollAnalysisSheetByDepartmentReport.cs">
+      <DependentUpon>PayrollAnalysisSheetByDepartmentReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollAnalysisSheetByDepartmentReport.Designer.cs">
+      <DependentUpon>PayrollAnalysisSheetByDepartmentReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollAnalysisSheetByRegionReport.cs">
+      <DependentUpon>PayrollAnalysisSheetByRegionReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollAnalysisSheetByRegionReport.Designer.cs">
+      <DependentUpon>PayrollAnalysisSheetByRegionReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollAnalysisSheetReport.cs">
+      <DependentUpon>PayrollAnalysisSheetReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollAnalysisSheetReport.Designer.cs">
+      <DependentUpon>PayrollAnalysisSheetReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollBankReport.cs">
+      <DependentUpon>PayrollBankReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollBankReport.Designer.cs">
+      <DependentUpon>PayrollBankReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollBankSummaryReport.cs">
+      <DependentUpon>PayrollBankSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollBankSummaryReport.Designer.cs">
+      <DependentUpon>PayrollBankSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollBenefitDetailsReport.cs">
+      <DependentUpon>PayrollBenefitDetailsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollBenefitDetailsReport.Designer.cs">
+      <DependentUpon>PayrollBenefitDetailsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollBenefitReport.cs">
+      <DependentUpon>PayrollBenefitReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollBenefitReport.Designer.cs">
+      <DependentUpon>PayrollBenefitReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollCumulativePFReport.cs">
+      <DependentUpon>PayrollCumulativePFReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollCumulativePFReport.Designer.cs">
+      <DependentUpon>PayrollCumulativePFReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollDeductionsCategoryReport.cs">
+      <DependentUpon>PayrollDeductionsCategoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollDeductionsCategoryReport.Designer.cs">
+      <DependentUpon>PayrollDeductionsCategoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollDeductionsDetailsReport.cs">
+      <DependentUpon>PayrollDeductionsDetailsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollDeductionsDetailsReport.Designer.cs">
+      <DependentUpon>PayrollDeductionsDetailsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollDeductionsReport.cs">
+      <DependentUpon>PayrollDeductionsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollDeductionsReport.Designer.cs">
+      <DependentUpon>PayrollDeductionsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollJournalByDepartmentReport.cs">
+      <DependentUpon>PayrollJournalByDepartmentReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollJournalByDepartmentReport.Designer.cs">
+      <DependentUpon>PayrollJournalByDepartmentReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollJournalDetailPaygroupReport.cs">
+      <DependentUpon>PayrollJournalDetailPaygroupReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollJournalDetailPaygroupReport.Designer.cs">
+      <DependentUpon>PayrollJournalDetailPaygroupReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollJournalDetailReport.cs">
+      <DependentUpon>PayrollJournalDetailReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollJournalDetailReport.Designer.cs">
+      <DependentUpon>PayrollJournalDetailReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollLoanDetailsReport.cs">
+      <DependentUpon>PayrollLoanDetailsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollLoanDetailsReport.Designer.cs">
+      <DependentUpon>PayrollLoanDetailsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollNationalJournalDetailReport.cs">
+      <DependentUpon>PayrollNationalJournalDetailReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollNationalJournalDetailReport.Designer.cs">
+      <DependentUpon>PayrollNationalJournalDetailReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollSavingSchemesReport.cs">
+      <DependentUpon>PayrollSavingSchemesReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PayrollSavingSchemesReport.Designer.cs">
+      <DependentUpon>PayrollSavingSchemesReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PhotoDailyTransactionsReportNew.cs">
+      <DependentUpon>PhotoDailyTransactionsReportNew.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PhotoDailyTransactionsReportNew.Designer.cs">
+      <DependentUpon>PhotoDailyTransactionsReportNew.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PhotoSalesByCategoryReport.cs">
+      <DependentUpon>PhotoSalesByCategoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\PhotoSalesByCategoryReport.Designer.cs">
+      <DependentUpon>PhotoSalesByCategoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ProductionStatisticsReport.cs">
+      <DependentUpon>ProductionStatisticsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ProductionStatisticsReport.Designer.cs">
+      <DependentUpon>ProductionStatisticsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\RecruitmentSelectionJobTitleReport.cs">
+      <DependentUpon>RecruitmentSelectionJobTitleReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\RecruitmentSelectionJobTitleReport.Designer.cs">
+      <DependentUpon>RecruitmentSelectionJobTitleReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\RecruitmentSelectReferenceReport.cs">
+      <DependentUpon>RecruitmentSelectReferenceReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\RecruitmentSelectReferenceReport.Designer.cs">
+      <DependentUpon>RecruitmentSelectReferenceReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\SalesByCategoryReport.cs">
+      <DependentUpon>SalesByCategoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\SalesByCategoryReport.Designer.cs">
+      <DependentUpon>SalesByCategoryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ScheduleByLocationSummaryReport.cs">
+      <DependentUpon>ScheduleByLocationSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ScheduleByLocationSummaryReport.Designer.cs">
+      <DependentUpon>ScheduleByLocationSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ScheduleByModelSummaryReport.cs">
+      <DependentUpon>ScheduleByModelSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ScheduleByModelSummaryReport.Designer.cs">
+      <DependentUpon>ScheduleByModelSummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ScheduleByServiceTypeReport.cs">
+      <DependentUpon>ScheduleByServiceTypeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ScheduleByServiceTypeReport.Designer.cs">
+      <DependentUpon>ScheduleByServiceTypeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\Scheduletransaction.cs">
+      <DependentUpon>Scheduletransaction.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\Scheduletransaction.Designer.cs">
+      <DependentUpon>Scheduletransaction.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ServiceTypeReport.cs">
+      <DependentUpon>ServiceTypeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ServiceTypeReport.Designer.cs">
+      <DependentUpon>ServiceTypeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\SNITPayrollReport.cs">
+      <DependentUpon>SNITPayrollReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\SNITPayrollReport.Designer.cs">
+      <DependentUpon>SNITPayrollReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\TEST.cs">
+      <DependentUpon>TEST.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\TEST.Designer.cs">
+      <DependentUpon>TEST.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\TrainingDevelopmentByReferenceReport.cs">
+      <DependentUpon>TrainingDevelopmentByReferenceReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\TrainingDevelopmentByReferenceReport.Designer.cs">
+      <DependentUpon>TrainingDevelopmentByReferenceReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\TrainingDevelopmentBySummaryReport.cs">
+      <DependentUpon>TrainingDevelopmentBySummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\TrainingDevelopmentBySummaryReport.Designer.cs">
+      <DependentUpon>TrainingDevelopmentBySummaryReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\TrainingDevelopmentByTrainingTypeReport.cs">
+      <DependentUpon>TrainingDevelopmentByTrainingTypeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\TrainingDevelopmentByTrainingTypeReport.Designer.cs">
+      <DependentUpon>TrainingDevelopmentByTrainingTypeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\WarrantyEndOfLifeReport.cs">
+      <DependentUpon>WarrantyEndOfLifeReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\WarrantyEndOfLifeReport.Designer.cs">
+      <DependentUpon>WarrantyEndOfLifeReport.repx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Graphs\" />
+  </ItemGroup>
+</Project>
