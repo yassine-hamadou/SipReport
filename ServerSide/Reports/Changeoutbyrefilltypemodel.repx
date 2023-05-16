@@ -5,7 +5,7 @@
   </Extensions>
   <Parameters>
     <Item1 Ref="5" Description="Refilltype" ValueSourceSettings="#Ref-3" MultiValue="true" ValueInfo="ALL" AllowNull="true" Name="refilltype" />
-    <Item2 Ref="7" Description="Comapny:" ValueSourceSettings="#Ref-6" AllowNull="true" Name="tenantid" />
+    <Item2 Ref="7" Description="Company:" ValueSourceSettings="#Ref-6" AllowNull="true" Name="tenantid" />
   </Parameters>
   <Bands>
     <Item1 Ref="8" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="149.791687">

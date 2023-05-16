@@ -51,10 +51,12 @@ namespace ServerSide.Reports {
 
             // Parameters
             this.ModelClass = reportInitializer.GetParameter("ModelClass");
+            this.tenantid = reportInitializer.GetParameter("tenantid");
 
             // Data Sources
             this.sqlDataSource1 = reportInitializer.GetDataSource<DevExpress.DataAccess.Sql.SqlDataSource>("sqlDataSource1");
             this.sqlDataSource2 = reportInitializer.GetDataSource<DevExpress.DataAccess.Sql.SqlDataSource>("sqlDataSource2");
+            this.sqlDataSource3 = reportInitializer.GetDataSource<DevExpress.DataAccess.Sql.SqlDataSource>("sqlDataSource3");
         }
         private DevExpress.XtraReports.UI.TopMarginBand topMarginBand1;
         private DevExpress.XtraReports.UI.DetailBand detailBand1;
@@ -92,5 +94,7 @@ namespace ServerSide.Reports {
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
         private DevExpress.XtraReports.Parameters.Parameter ModelClass;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource2;
+        private DevExpress.XtraReports.Parameters.Parameter tenantid;
+        private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource3;
     }
 }
