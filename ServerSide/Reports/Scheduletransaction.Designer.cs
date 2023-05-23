@@ -31,15 +31,15 @@ namespace ServerSide.Reports {
             this.label10 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label10");
 
             // Parameters
+            this.tenantid = reportInitializer.GetParameter("tenantid");
             this.equipID = reportInitializer.GetParameter("equipID");
             this.datestart = reportInitializer.GetParameter("datestart");
             this.dateend = reportInitializer.GetParameter("dateend");
-            this.tenantid = reportInitializer.GetParameter("tenantid");
 
             // Data Sources
             this.sqlDataSource1 = reportInitializer.GetDataSource<DevExpress.DataAccess.Sql.SqlDataSource>("sqlDataSource1");
-            this.sqlDataSource2 = reportInitializer.GetDataSource<DevExpress.DataAccess.Sql.SqlDataSource>("sqlDataSource2");
             this.sqlDataSource3 = reportInitializer.GetDataSource<DevExpress.DataAccess.Sql.SqlDataSource>("sqlDataSource3");
+            this.sqlDataSource2 = reportInitializer.GetDataSource<DevExpress.DataAccess.Sql.SqlDataSource>("sqlDataSource2");
         }
         private DevExpress.XtraReports.UI.TopMarginBand topMarginBand1;
         private DevExpress.XtraReports.UI.DetailBand detailBand1;
@@ -56,11 +56,11 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.UI.XRLabel label9;
         private DevExpress.XtraReports.UI.XRLabel label10;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
+        private DevExpress.XtraReports.Parameters.Parameter tenantid;
+        private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource3;
         private DevExpress.XtraReports.Parameters.Parameter equipID;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource2;
         private DevExpress.XtraReports.Parameters.Parameter datestart;
         private DevExpress.XtraReports.Parameters.Parameter dateend;
-        private DevExpress.XtraReports.Parameters.Parameter tenantid;
-        private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource3;
     }
 }

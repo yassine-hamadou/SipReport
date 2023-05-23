@@ -4,18 +4,18 @@
     <Item1 Ref="2" Key="VSReportExtInfo" Value=".repx" />
   </Extensions>
   <Parameters>
-    <Item1 Ref="5" Visible="false" Description="equipment ID" ValueSourceSettings="#Ref-3" MultiValue="true" Name="equipID" />
-    <Item2 Ref="7" Visible="false" Description="Start Date:" ValueInfo="2023-05-03" Name="datestart" Type="#Ref-6">
-      <ExpressionBindings>
-        <Item1 Ref="8" PropertyName="Value" Expression="Today()" />
-      </ExpressionBindings>
-    </Item2>
-    <Item3 Ref="9" Visible="false" Description="End date:" ValueInfo="2023-05-03" Name="dateend" Type="#Ref-6">
+    <Item1 Ref="5" Visible="false" Description="Company:" ValueSourceSettings="#Ref-3" Name="tenantid" />
+    <Item2 Ref="7" Visible="false" Description="equipment ID" ValueSourceSettings="#Ref-6" MultiValue="true" Name="equipID" />
+    <Item3 Ref="9" Visible="false" Description="Start Date:" ValueInfo="2023-05-03" Name="datestart" Type="#Ref-8">
       <ExpressionBindings>
         <Item1 Ref="10" PropertyName="Value" Expression="Today()" />
       </ExpressionBindings>
     </Item3>
-    <Item4 Ref="12" Visible="false" Description="Company:" ValueSourceSettings="#Ref-11" AllowNull="true" Name="tenantid" />
+    <Item4 Ref="11" Visible="false" Description="End date:" ValueInfo="2023-05-03" Name="dateend" Type="#Ref-8">
+      <ExpressionBindings>
+        <Item1 Ref="12" PropertyName="Value" Expression="Today()" />
+      </ExpressionBindings>
+    </Item4>
   </Parameters>
   <Bands>
     <Item1 Ref="13" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="7.29166651" />
@@ -70,12 +70,12 @@
   </Bands>
   <ComponentStorage>
     <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFBhcmFtZXRlciBOYW1lPSJlcXVpcElEIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5TdHJpbmcpKEpPSU4oP2VxdWlwSUQpKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0ic3RhcnREYXRlIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5EYXRlVGltZSkoP2RhdGVzdGFydCk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9ImVuZERhdGUiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkRhdGVUaW1lKSg/ZGF0ZWVuZCk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9InRlbmFudGlkIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5TdHJpbmcpKD90ZW5hbnRpZCk8L1BhcmFtZXRlcj48U3FsPlNFTEVDVCBbRW5wREJdLltkYm9dLltMdWJlRW50cnldLltGbGVldElkXSwgW0VucERCXS5bZGJvXS5bTHViZUVudHJ5XS5bQ29tcGFydG1lbnRJZF0sIFtFbnBEQl0uW2Rib10uW0x1YmVFbnRyeV0uW1JlZmlsbFR5cGVJZF0gYXMgUmVmaWxsVHlwZSwgW0VucERCXS5bZGJvXS5bTHViZUVudHJ5XS5bVm9sdW1lXSANCkZST00gW0VucERCXS5bZGJvXS5bTHViZUVudHJ5XQ0KSU5ORVIgSk9JTiBbRW5wREJdLltkYm9dLltSZWZpbGxUeXBlXSBPTiBbRW5wREJdLltkYm9dLltSZWZpbGxUeXBlXS5JZD1bRW5wREJdLltkYm9dLltMdWJlRW50cnldLltSZWZpbGxUeXBlSWRdIA0Kd2hlcmUgW0VucERCXS5bZGJvXS5bTHViZUVudHJ5XS5bRmxlZXRJZF0gaW4gKCBTRUxFQ1QgdmFsdWUgRlJPTSBTVFJJTkdfU1BMSVQoQGVxdWlwSUQsJywnKSkNCkFORCBbRW5wREJdLltkYm9dLltMdWJlRW50cnldLlJlZmlsbERhdGUgYmV0d2VlbiBAc3RhcnREYXRlIGFuZCBAZW5kRGF0ZQ0KIEFORCBbRW5wREJdLltkYm9dLltSZWZpbGxUeXBlXS5UZW5hbnRJZD1AdGVuYW50aWQNCkdST1VQIEJZIFtFbnBEQl0uW2Rib10uW0x1YmVFbnRyeV0uW0ZsZWV0SWRdLFtFbnBEQl0uW2Rib10uW0x1YmVFbnRyeV0uW0NvbXBhcnRtZW50SWRdLFtFbnBEQl0uW2Rib10uW0x1YmVFbnRyeV0uW1JlZmlsbFR5cGVJZF0sW0VucERCXS5bZGJvXS5bTHViZUVudHJ5XS5bVm9sdW1lXTwvU3FsPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMSI+PFZpZXcgTmFtZT0iUXVlcnkiPjxGaWVsZCBOYW1lPSJGbGVldElkIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbXBhcnRtZW50SWQiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJSZWZpbGxUeXBlIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlZvbHVtZSIgVHlwZT0iRG91YmxlIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
-    <Item2 Ref="39" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource2" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgRXF1aXBtZW50X2lkIEZST00gRXF1aXBtZW50PC9TcWw+PE1ldGEgWD0iMjAiIFk9IjIwIiBXaWR0aD0iMTAwIiBIZWlnaHQ9IjYxIiAvPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMiI+PFZpZXcgTmFtZT0iUXVlcnkiPjxGaWVsZCBOYW1lPSJFcXVpcG1lbnRfaWQiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
+    <Item2 Ref="39" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource2" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgRXF1aXBtZW50X2lkLCBUZW5hbnRJZCBGUk9NIEVxdWlwbWVudDwvU3FsPjxNZXRhIFg9IjIwIiBZPSIyMCIgV2lkdGg9IjEwMCIgSGVpZ2h0PSI2MSIgLz48L1F1ZXJ5PjxSZXN1bHRTY2hlbWE+PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxWaWV3IE5hbWU9IlF1ZXJ5Ij48RmllbGQgTmFtZT0iRXF1aXBtZW50X2lkIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlRlbmFudElkIiBUeXBlPSJTdHJpbmciIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
     <Item3 Ref="40" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource3" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTMiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgVGVuYW50SWQgRlJPTSBbRU5QREJdLltkYm9dLkZhdWx0RW50cnk8L1NxbD48L1F1ZXJ5PjxSZXN1bHRTY2hlbWE+PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTMiPjxWaWV3IE5hbWU9IlF1ZXJ5Ij48RmllbGQgTmFtZT0iVGVuYW50SWQiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
   </ComponentStorage>
   <ObjectStorage>
-    <Item1 Ref="3" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-39" DataMember="Query" ValueMember="Equipment_id" DisplayMember="Equipment_id" />
-    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v21.2" Ref="6" Content="System.DateTime" Type="System.Type" />
-    <Item3 Ref="11" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-40" DataMember="Query" ValueMember="TenantId" DisplayMember="TenantId" />
+    <Item1 Ref="3" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-40" DataMember="Query" ValueMember="TenantId" DisplayMember="TenantId" />
+    <Item2 Ref="6" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-39" DataMember="Query" ValueMember="Equipment_id" DisplayMember="Equipment_id" FilterString="[TenantId] = ?tenantid" />
+    <Item3 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v21.2" Ref="8" Content="System.DateTime" Type="System.Type" />
   </ObjectStorage>
 </XtraReportsLayoutSerializer>

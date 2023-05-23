@@ -53,6 +53,8 @@ namespace ServerSide.Reports {
             this.subreport2.ReportSource = new ServerSide.Reports.DailyPMComplianceReport();
             this.subreport1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRSubreport>("subreport1");
             this.subreport1.ReportSource = new ServerSide.Reports.ProductionStatisticsReport();
+            this.label21 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label21");
+            this.label2 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label2");
 
             // Parameters
             this.weekday = reportInitializer.GetParameter("weekday");
@@ -98,5 +100,7 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.UI.XRSubreport subreport1;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
         private DevExpress.XtraReports.Parameters.Parameter weekday;
+        private DevExpress.XtraReports.UI.XRLabel label21;
+        private DevExpress.XtraReports.UI.XRLabel label2;
     }
 }
