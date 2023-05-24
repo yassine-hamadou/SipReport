@@ -65,6 +65,7 @@
     <None Remove="Reports\MedicalSummaryReport.repx" />
     <None Remove="Reports\MedicalTypeReport.repx" />
     <None Remove="Reports\MemberListReport.repx" />
+    <None Remove="Reports\MemberTeesReport.repx" />
     <None Remove="Reports\MeteringByEquipment.repx" />
     <None Remove="Reports\meteringbymodelclasssummary.repx" />
     <None Remove="Reports\MeteringbyModelDetail.repx" />
@@ -157,6 +158,7 @@
     <EmbeddedResource Include="Reports\MedicalSummaryReport.repx" />
     <EmbeddedResource Include="Reports\MedicalTypeReport.repx" />
     <EmbeddedResource Include="Reports\MemberListReport.repx" />
+    <EmbeddedResource Include="Reports\MemberTeesReport.repx" />
     <EmbeddedResource Include="Reports\meteringbymodelclasssummary.repx" />
     <EmbeddedResource Include="Reports\MeteringbyModelDetail.repx" />
     <EmbeddedResource Include="Reports\Meteringbymodelsummary.repx" />
@@ -504,6 +506,12 @@
     </Compile>
     <Compile Update="Reports\MemberListReport.Designer.cs">
       <DependentUpon>MemberListReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MemberTeesReport.cs">
+      <DependentUpon>MemberTeesReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\MemberTeesReport.Designer.cs">
+      <DependentUpon>MemberTeesReport.repx</DependentUpon>
     </Compile>
     <Compile Update="Reports\meteringbymodelclasssummary.cs">
       <DependentUpon>meteringbymodelclasssummary.repx</DependentUpon>
