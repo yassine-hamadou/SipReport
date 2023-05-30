@@ -45,6 +45,7 @@
     <None Remove="Reports\EquipmentDefectReport.repx" />
     <None Remove="Reports\EquipmentDefectReportt.repx" />
     <None Remove="Reports\EquipmentTransactionReport.repx" />
+    <None Remove="Reports\EventsReport.vsrepx" />
     <None Remove="Reports\FaultByCustodianDetail.repx" />
     <None Remove="Reports\FaultByCustodianSummary.repx" />
     <None Remove="Reports\FaultByDowntimeReport.repx" />
@@ -139,6 +140,7 @@
     <EmbeddedResource Include="Reports\EmployeeListSummaryReport.repx" />
     <EmbeddedResource Include="Reports\EquipmentDefect.repx" />
     <EmbeddedResource Include="Reports\EquipmentTransactionReport.repx" />
+    <EmbeddedResource Include="Reports\EventsReport.vsrepx" />
     <EmbeddedResource Include="Reports\FaultByCustodianDetail.repx" />
     <EmbeddedResource Include="Reports\FaultByCustodianSummary.repx" />
     <EmbeddedResource Include="Reports\FaultByDowntimeReport.repx" />
@@ -392,6 +394,12 @@
     </Compile>
     <Compile Update="Reports\EquipmentTransactionReport.Designer.cs">
       <DependentUpon>EquipmentTransactionReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EventsReport.cs">
+      <DependentUpon>EventsReport.vsrepx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\EventsReport.Designer.cs">
+      <DependentUpon>EventsReport.vsrepx</DependentUpon>
     </Compile>
     <Compile Update="Reports\FaultByCustodianDetail.cs">
       <DependentUpon>FaultByCustodianDetail.repx</DependentUpon>
