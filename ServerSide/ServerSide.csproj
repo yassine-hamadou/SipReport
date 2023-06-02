@@ -15,7 +15,11 @@
     <None Remove="PredefinedReports\FleetScheduleReport.repx" />
     <None Remove="PredefinedReports\TestReport.repx" />
     <None Remove="Reports\AgeDetailByYearReport.repx" />
+    <None Remove="Reports\AllChangeoutReport.repx" />
     <None Remove="Reports\AllEquipmentSummary.repx" />
+    <None Remove="Reports\AllFaultsReport.repx" />
+    <None Remove="Reports\AllMeteringReport.repx" />
+    <None Remove="Reports\AllSchedulesReport.repx" />
     <None Remove="Reports\AppraisalPerformanceByAppraisalTypeReport.repx" />
     <None Remove="Reports\AppraisalPerformanceByEmployeeReport.repx" />
     <None Remove="Reports\AppraisalPerformanceSummaryReport.repx" />
@@ -111,7 +115,11 @@
   <ItemGroup>
     <EmbeddedResource Include="PredefinedReports\TestReport.repx" />
     <EmbeddedResource Include="Reports\AgeDetailByYearReport.repx" />
+    <EmbeddedResource Include="Reports\AllChangeoutReport.repx" />
     <EmbeddedResource Include="Reports\AllEquipmentSummary.repx" />
+    <EmbeddedResource Include="Reports\AllFaultsReport.repx" />
+    <EmbeddedResource Include="Reports\AllMeteringReport.repx" />
+    <EmbeddedResource Include="Reports\AllSchedulesReport.repx" />
     <EmbeddedResource Include="Reports\AppraisalPerformanceByAppraisalTypeReport.repx" />
     <EmbeddedResource Include="Reports\AppraisalPerformanceByEmployeeReport.repx" />
     <EmbeddedResource Include="Reports\AppraisalSummaryReport.repx" />
@@ -226,11 +234,35 @@
     <Compile Update="Reports\AgeDetailByYearReport.Designer.cs">
       <DependentUpon>AgeDetailByYearReport.repx</DependentUpon>
     </Compile>
+    <Compile Update="Reports\AllChangeoutReport.cs">
+      <DependentUpon>AllChangeoutReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AllChangeoutReport.Designer.cs">
+      <DependentUpon>AllChangeoutReport.repx</DependentUpon>
+    </Compile>
     <Compile Update="Reports\AllEquipmentSummary.cs">
       <DependentUpon>AllEquipmentSummary.repx</DependentUpon>
     </Compile>
     <Compile Update="Reports\AllEquipmentSummary.Designer.cs">
       <DependentUpon>AllEquipmentSummary.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AllFaultsReport.cs">
+      <DependentUpon>AllFaultsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AllFaultsReport.Designer.cs">
+      <DependentUpon>AllFaultsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AllMeteringReport.cs">
+      <DependentUpon>AllMeteringReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AllMeteringReport.Designer.cs">
+      <DependentUpon>AllMeteringReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AllSchedulesReport.cs">
+      <DependentUpon>AllSchedulesReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\AllSchedulesReport.Designer.cs">
+      <DependentUpon>AllSchedulesReport.repx</DependentUpon>
     </Compile>
     <Compile Update="Reports\AppraisalPerformanceByAppraisalTypeReport.cs">
       <DependentUpon>AppraisalPerformanceByAppraisalTypeReport.repx</DependentUpon>

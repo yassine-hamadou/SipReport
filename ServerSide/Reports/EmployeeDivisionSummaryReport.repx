@@ -107,7 +107,7 @@
           <StylePriority Ref="55" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item2>
         <Item3 Ref="56" ControlType="XRLabel" Name="label12" Multiline="true" Text="label2" TextAlignment="MiddleRight" SizeF="47.166748,21.0833435" LocationFloat="800.8333,0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="Top">
-          <Summary Ref="57" Running="Group" IgnoreNullValues="true" />
+          <Summary Ref="57" Running="Page" IgnoreNullValues="true" />
           <ExpressionBindings>
             <Item1 Ref="58" EventName="BeforePrint" PropertyName="Text" Expression="ToInt(sumSum([employeeCount]))&#xA;" />
           </ExpressionBindings>
