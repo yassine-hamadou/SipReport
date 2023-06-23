@@ -70,7 +70,14 @@ namespace ServerSide.PredefinedReports {
             ["HoursReport"] =()=>new HoursReport(),
             ["Scheduletransaction"] =()=>new Scheduletransaction(),
             ["ChangeoutReport"] =()=>new ChangeoutReport(),
-            ["EquipmentDefect"] =()=>new EquipmentDefect()
+            ["EquipmentDefect"] =()=>new EquipmentDefect(),
+            ["AllChangeoutReport"] =()=> new AllChangeoutReport(),
+            ["AllMeteringReport"] =()=> new AllMeteringReport(),
+            ["AllSchedulesReport"] =()=> new AllSchedulesReport(),
+            ["AllfaultsReport"]=()=> new AllfaultsReport(),
+            ["AllBacklogsReport"] =()=> new AllBacklogsReport() 
+
+
         };
     }
 }

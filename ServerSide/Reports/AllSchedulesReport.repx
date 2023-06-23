@@ -19,7 +19,7 @@
   <Bands>
     <Item1 Ref="11" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="159.375">
       <Controls>
-        <Item1 Ref="12" ControlType="XRLabel" Name="label19" Multiline="true" Text="label19" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="862.8946,48.2916832" Padding="2,2,0,0,96">
+        <Item1 Ref="12" ControlType="XRLabel" Name="label19" Multiline="true" Text="label19" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="862.8946,48.2916832" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="13" EventName="BeforePrint" PropertyName="Text" Expression="?tenantId" />
           </ExpressionBindings>
@@ -101,7 +101,7 @@
           </ExpressionBindings>
           <StylePriority Ref="48" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="49" ControlType="XRLabel" Name="label18" TextFormatString="{0:d}" Multiline="true" Text="label18" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="76.5142746,0" Padding="2,2,0,0,100">
+        <Item2 Ref="49" ControlType="XRLabel" Name="label18" TextFormatString="{0:d}" Multiline="true" Text="label18" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="76.5142746,3.87500119" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="50" EventName="BeforePrint" PropertyName="Text" Expression="?startDate" />
           </ExpressionBindings>

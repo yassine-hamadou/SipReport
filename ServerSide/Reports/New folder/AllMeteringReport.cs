@@ -10,7 +10,7 @@
 
 namespace EnP_Reports.Reports {
     
-    public partial class AppraisalPerformanceSummaryReport : DevExpress.XtraReports.UI.XtraReport {
+    public partial class AllMeteringReport : DevExpress.XtraReports.UI.XtraReport {
         private void InitializeComponent() {
             DevExpress.XtraReports.ReportInitializer reportInitializer = new DevExpress.XtraReports.ReportInitializer(this, "EnP_Reports.Reports.AppraisalPerformanceSummaryReport.repx");
 

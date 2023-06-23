@@ -3,9 +3,9 @@ using DevExpress.XtraReports.UI;
 
 namespace ServerSide.Reports
 {
-    public partial class AllfaultsReport
+    public partial class AllBacklogsReport
     {
-        public AllfaultsReport()
+        public AllBacklogsReport()
         {
             InitializeComponent();
         }
