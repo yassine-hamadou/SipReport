@@ -147,37 +147,15 @@
         </Item4>
       </Controls>
     </Item6>
-    <Item7 Ref="82" ControlType="PageFooterBand" Name="PageFooter" HeightF="249.16748">
-      <Controls>
-        <Item1 Ref="83" ControlType="XRChart" Name="chart1" SizeF="735.8333,200" LocationFloat="55.8112144,49.16748" BorderColor="Black" Borders="None">
-          <Chart Ref="84">
-            <DataContainer Ref="85" SeriesDataMember="Query.vmmodel" ValidateDataMembers="true">
-              <SeriesTemplate Ref="86" SeriesDataMember="Query.vmmodel" ArgumentDataMember="Query.vmmodel" ValueDataMembersSerializable="Query.Numberofdowntime" />
-            </DataContainer>
-            <Diagram Ref="87" TypeNameSerializable="XYDiagram">
-              <AxisX Ref="88" VisibleInPanesSerializable="-1" />
-              <AxisY Ref="89" VisibleInPanesSerializable="-1" />
-              <DefaultPane Ref="90" EnableAxisXScrolling="False" EnableAxisYScrolling="False" EnableAxisXZooming="False" EnableAxisYZooming="False">
-                <StackedBarTotalLabel Ref="91">
-                  <ConnectorLineStyle Ref="92" />
-                </StackedBarTotalLabel>
-              </DefaultPane>
-            </Diagram>
-            <Legend Ref="93" />
-            <OptionsPrint Ref="94" ImageFormat="Metafile" />
-          </Chart>
-        </Item1>
-      </Controls>
-    </Item7>
   </Bands>
   <ComponentStorage>
     <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFBhcmFtZXRlciBOYW1lPSJ2bW1vZGVsIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5TdHJpbmcpKEpPSU4oP1ZtTW9kZWwpKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0idGVuYW50aWQiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZykoP3RlbmFudGlkKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0ic3RhcnREYXRlIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5EYXRlVGltZSkoP3N0YXJ0RGF0ZSk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9ImVuZERhdGUiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkRhdGVUaW1lKSg/ZW5kRGF0ZSk8L1BhcmFtZXRlcj48U3FsPnNlbGVjdCB2bW1vZGVsLGRvd250eXBlLGNvdW50KEZsZWV0SUQpIGFzIE51bWJlcm9mZG93bnRpbWUsc3VtKGRhdGVkaWZmKGhvdXIsZG93bnRpbWUsV1RpbWVFbmQpKSBhcyB0b3RhbGRvd250aW1lLGF2ZyhkYXRlZGlmZihob3VyLGRvd250aW1lLFdUaW1lRW5kKSkgYXMgQXZlcmFnZWRvd250aW1lIGZyb20gRmF1bHRFbnRyeQ0Kd2hlcmUgUmVzb2x1dGlvblR5cGUgaXMgbm90IG51bGwgQU5EIA0Kdm1tb2RlbCBpbiAoIFNFTEVDVCB2YWx1ZSBGUk9NIFNUUklOR19TUExJVChAdm1tb2RlbCwnLCcpKQ0KIGFuZCBGYXVsdEVudHJ5LlRlbmFudElkPUB0ZW5hbnRpZCBhbmQgZG93bnRpbWUgYmV0d2VlbiBAc3RhcnREYXRlIGFuZCBAZW5kRGF0ZQ0KZ3JvdXAgYnkgVm1Nb2RlbCxEb3dudHlwZQ0Kb3JkZXIgYnkgVm1Nb2RlbCxEb3dudHlwZTwvU3FsPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMSI+PFZpZXcgTmFtZT0iUXVlcnkiPjxGaWVsZCBOYW1lPSJ2bW1vZGVsIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9ImRvd250eXBlIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Ik51bWJlcm9mZG93bnRpbWUiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJ0b3RhbGRvd250aW1lIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iQXZlcmFnZWRvd250aW1lIiBUeXBlPSJJbnQzMiIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
-    <Item2 Ref="95" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource2" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5zZWxlY3Qgdm1tb2RlbCwgVGVuYW50SWQgZnJvbSBFbnBEQi5kYm8uZmF1bHRFbnRyeTwvU3FsPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMiI+PFZpZXcgTmFtZT0iUXVlcnkiPjxGaWVsZCBOYW1lPSJ2bW1vZGVsIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlRlbmFudElkIiBUeXBlPSJTdHJpbmciIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
-    <Item3 Ref="96" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource3" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTMiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgVGVuYW50SWQgRlJPTSBbRW5wREJdLltkYm9dLltGYXVsdEVudHJ5XTwvU3FsPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMyI+PFZpZXcgTmFtZT0iUXVlcnkiPjxGaWVsZCBOYW1lPSJUZW5hbnRJZCIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
+    <Item2 Ref="82" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource2" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5zZWxlY3Qgdm1tb2RlbCwgVGVuYW50SWQgZnJvbSBFbnBEQi5kYm8uZmF1bHRFbnRyeTwvU3FsPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMiI+PFZpZXcgTmFtZT0iUXVlcnkiPjxGaWVsZCBOYW1lPSJ2bW1vZGVsIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlRlbmFudElkIiBUeXBlPSJTdHJpbmciIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
+    <Item3 Ref="83" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource3" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTMiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgVGVuYW50SWQgRlJPTSBbRW5wREJdLltkYm9dLltGYXVsdEVudHJ5XTwvU3FsPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMyI+PFZpZXcgTmFtZT0iUXVlcnkiPjxGaWVsZCBOYW1lPSJUZW5hbnRJZCIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
   </ComponentStorage>
   <ObjectStorage>
-    <Item1 Ref="3" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-96" DataMember="Query" ValueMember="TenantId" DisplayMember="TenantId" />
-    <Item2 Ref="6" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-95" DataMember="Query" ValueMember="vmmodel" DisplayMember="vmmodel" FilterString="[TenantId] = ?tenantid" />
+    <Item1 Ref="3" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-83" DataMember="Query" ValueMember="TenantId" DisplayMember="TenantId" />
+    <Item2 Ref="6" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-82" DataMember="Query" ValueMember="vmmodel" DisplayMember="vmmodel" FilterString="[TenantId] = ?tenantid" />
     <Item3 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v21.2" Ref="8" Content="System.DateTime" Type="System.Type" />
   </ObjectStorage>
 </XtraReportsLayoutSerializer>

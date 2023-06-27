@@ -27,9 +27,9 @@ namespace ServerSide.Reports {
             this.label26 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label26");
             this.label4 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label4");
             this.logo = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRPictureBox>("logo");
-            this.label24 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label24");
-            this.label21 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label21");
             this.label18 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label18");
+            this.label21 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label21");
+            this.label24 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label24");
             this.label17 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label17");
             this.label16 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label16");
             this.label15 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label15");
@@ -40,19 +40,19 @@ namespace ServerSide.Reports {
             this.label27 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label27");
             this.label5 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label5");
             this.label13 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label13");
+            this.label1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label1");
             this.label9 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label9");
-            this.label8 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label8");
             this.label7 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label7");
             this.label6 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label6");
             this.label2 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label2");
-            this.label1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label1");
             this.label22 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label22");
-            this.label11 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label11");
             this.label19 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label19");
             this.label12 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label12");
             this.label20 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label20");
             this.label10 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label10");
             this.label25 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label25");
+            this.label3 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label3");
+            this.label23 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label23");
 
             // Parameters
             this.TenantId = reportInitializer.GetParameter("TenantId");
@@ -75,9 +75,9 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.UI.XRLabel label26;
         private DevExpress.XtraReports.UI.XRLabel label4;
         private DevExpress.XtraReports.UI.XRPictureBox logo;
-        private DevExpress.XtraReports.UI.XRLabel label24;
-        private DevExpress.XtraReports.UI.XRLabel label21;
         private DevExpress.XtraReports.UI.XRLabel label18;
+        private DevExpress.XtraReports.UI.XRLabel label21;
+        private DevExpress.XtraReports.UI.XRLabel label24;
         private DevExpress.XtraReports.UI.XRLabel label17;
         private DevExpress.XtraReports.UI.XRLabel label16;
         private DevExpress.XtraReports.UI.XRLabel label15;
@@ -88,14 +88,12 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.UI.XRLabel label27;
         private DevExpress.XtraReports.UI.XRLabel label5;
         private DevExpress.XtraReports.UI.XRLabel label13;
+        private DevExpress.XtraReports.UI.XRLabel label1;
         private DevExpress.XtraReports.UI.XRLabel label9;
-        private DevExpress.XtraReports.UI.XRLabel label8;
         private DevExpress.XtraReports.UI.XRLabel label7;
         private DevExpress.XtraReports.UI.XRLabel label6;
         private DevExpress.XtraReports.UI.XRLabel label2;
-        private DevExpress.XtraReports.UI.XRLabel label1;
         private DevExpress.XtraReports.UI.XRLabel label22;
-        private DevExpress.XtraReports.UI.XRLabel label11;
         private DevExpress.XtraReports.UI.XRLabel label19;
         private DevExpress.XtraReports.UI.XRLabel label12;
         private DevExpress.XtraReports.UI.XRLabel label20;
@@ -106,5 +104,7 @@ namespace ServerSide.Reports {
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource2;
         private DevExpress.XtraReports.Parameters.Parameter startDate;
         private DevExpress.XtraReports.Parameters.Parameter endDate;
+        private DevExpress.XtraReports.UI.XRLabel label3;
+        private DevExpress.XtraReports.UI.XRLabel label23;
     }
 }

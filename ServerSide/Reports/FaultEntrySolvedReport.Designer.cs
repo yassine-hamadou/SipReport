@@ -21,7 +21,7 @@ namespace ServerSide.Reports {
             this.PageHeader = reportInitializer.GetControl<DevExpress.XtraReports.UI.PageHeaderBand>("PageHeader");
             this.ReportHeader = reportInitializer.GetControl<DevExpress.XtraReports.UI.ReportHeaderBand>("ReportHeader");
             this.GroupHeader1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.GroupHeaderBand>("GroupHeader1");
-            this.GroupFooter1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.GroupFooterBand>("GroupFooter1");
+            this.GroupHeader2 = reportInitializer.GetControl<DevExpress.XtraReports.UI.GroupHeaderBand>("GroupHeader2");
             this.label5 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label5");
             this.label9 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label9");
             this.logo = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRPictureBox>("logo");
@@ -47,14 +47,12 @@ namespace ServerSide.Reports {
             this.label10 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label10");
             this.label18 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label18");
             this.label19 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label19");
-            this.label31 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label31");
-            this.label30 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label30");
+            this.label17 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label17");
+            this.label15 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label15");
+            this.label8 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label8");
             this.label20 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label20");
             this.label26 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label26");
-            this.label8 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label8");
-            this.GroupHeader2 = reportInitializer.GetControl<DevExpress.XtraReports.UI.GroupHeaderBand>("GroupHeader2");
-            this.label15 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label15");
-            this.label17 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label17");
+            this.GroupFooter1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.GroupFooterBand>("GroupFooter1");
 
             // Parameters
             this.tenantid = reportInitializer.GetParameter("tenantid");
@@ -76,7 +74,7 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
         private DevExpress.XtraReports.UI.ReportHeaderBand ReportHeader;
         private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader1;
-        private DevExpress.XtraReports.UI.GroupFooterBand GroupFooter1;
+        private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader2;
         private DevExpress.XtraReports.UI.XRLabel label5;
         private DevExpress.XtraReports.UI.XRLabel label9;
         private DevExpress.XtraReports.UI.XRPictureBox logo;
@@ -102,11 +100,11 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.UI.XRLabel label10;
         private DevExpress.XtraReports.UI.XRLabel label18;
         private DevExpress.XtraReports.UI.XRLabel label19;
-        private DevExpress.XtraReports.UI.XRLabel label31;
-        private DevExpress.XtraReports.UI.XRLabel label30;
+        private DevExpress.XtraReports.UI.XRLabel label17;
+        private DevExpress.XtraReports.UI.XRLabel label15;
+        private DevExpress.XtraReports.UI.XRLabel label8;
         private DevExpress.XtraReports.UI.XRLabel label20;
         private DevExpress.XtraReports.UI.XRLabel label26;
-        private DevExpress.XtraReports.UI.XRLabel label8;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
         private DevExpress.XtraReports.Parameters.Parameter tenantid;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource5;
@@ -117,8 +115,6 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.Parameters.Parameter startdate;
         private DevExpress.XtraReports.Parameters.Parameter endDate;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource4;
-        private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader2;
-        private DevExpress.XtraReports.UI.XRLabel label15;
-        private DevExpress.XtraReports.UI.XRLabel label17;
+        private DevExpress.XtraReports.UI.GroupFooterBand GroupFooter1;
     }
 }

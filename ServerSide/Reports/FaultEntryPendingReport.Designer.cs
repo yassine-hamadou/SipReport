@@ -45,14 +45,14 @@ namespace ServerSide.Reports {
             this.label14 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label14");
             this.label29 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label29");
             this.label13 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label13");
+            this.label20 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label20");
             this.label17 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label17");
+            this.label5 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label5");
             this.label4 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label4");
             this.label36 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label36");
             this.label2 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label2");
             this.label26 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label26");
             this.label18 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label18");
-            this.label5 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label5");
-            this.label20 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label20");
 
             // Parameters
             this.tenantid = reportInitializer.GetParameter("tenantid");
@@ -98,7 +98,9 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.UI.XRLabel label14;
         private DevExpress.XtraReports.UI.XRLabel label29;
         private DevExpress.XtraReports.UI.XRLabel label13;
+        private DevExpress.XtraReports.UI.XRLabel label20;
         private DevExpress.XtraReports.UI.XRLabel label17;
+        private DevExpress.XtraReports.UI.XRLabel label5;
         private DevExpress.XtraReports.UI.XRLabel label4;
         private DevExpress.XtraReports.UI.XRLabel label36;
         private DevExpress.XtraReports.UI.XRLabel label2;
@@ -114,7 +116,5 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.Parameters.Parameter startDate;
         private DevExpress.XtraReports.Parameters.Parameter endDate;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource4;
-        private DevExpress.XtraReports.UI.XRLabel label5;
-        private DevExpress.XtraReports.UI.XRLabel label20;
     }
 }
