@@ -123,12 +123,12 @@
     </Item4>
     <Item5 Ref="68" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="54.33337">
       <Controls>
-        <Item1 Ref="69" ControlType="XRLabel" Name="label4" TextFormatString="{0:d}" Multiline="true" Text="label4" SizeF="100,23" LocationFloat="56.75307,23.3074951" Padding="2,2,0,0,100">
+        <Item1 Ref="69" ControlType="XRLabel" Name="label4" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label4" SizeF="100,23" LocationFloat="56.75307,23.3074951" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="70" EventName="BeforePrint" PropertyName="Text" Expression="?endDate" />
           </ExpressionBindings>
         </Item1>
-        <Item2 Ref="71" ControlType="XRLabel" Name="label10" TextFormatString="{0:d}" Multiline="true" Text="label10" SizeF="100,23" LocationFloat="57.6784248,0.3074646" Padding="2,2,0,0,100">
+        <Item2 Ref="71" ControlType="XRLabel" Name="label10" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label10" SizeF="100,23" LocationFloat="57.6784248,0.3074646" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="72" EventName="BeforePrint" PropertyName="Text" Expression="?startdate" />
           </ExpressionBindings>

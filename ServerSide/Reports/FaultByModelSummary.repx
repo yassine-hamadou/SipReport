@@ -12,13 +12,13 @@
   <Bands>
     <Item1 Ref="11" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="183.333176">
       <Controls>
-        <Item1 Ref="12" ControlType="XRLabel" Name="label21" TextFormatString="{0:d}" Multiline="true" Text="label21" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="100.34922,128.7502" Padding="2,2,0,0,100">
+        <Item1 Ref="12" ControlType="XRLabel" Name="label21" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label21" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="100.34922,128.7502" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="13" EventName="BeforePrint" PropertyName="Text" Expression="?startDate" />
           </ExpressionBindings>
           <StylePriority Ref="14" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="15" ControlType="XRLabel" Name="label20" TextFormatString="{0:d}" Multiline="true" Text="label20" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="100.34922,151.750183" Padding="2,2,0,0,100">
+        <Item2 Ref="15" ControlType="XRLabel" Name="label20" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label20" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="100.34922,151.750183" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="16" EventName="BeforePrint" PropertyName="Text" Expression="?endDate" />
           </ExpressionBindings>

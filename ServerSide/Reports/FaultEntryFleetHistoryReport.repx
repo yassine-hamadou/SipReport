@@ -132,13 +132,13 @@
     </Item4>
     <Item5 Ref="72" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="81.95829">
       <Controls>
-        <Item1 Ref="73" ControlType="XRLabel" Name="label2" TextFormatString="{0:d}" Multiline="true" Text="label2" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="76.51426,41.98181" Padding="2,2,0,0,100">
+        <Item1 Ref="73" ControlType="XRLabel" Name="label2" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label2" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="76.51426,41.98181" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="74" EventName="BeforePrint" PropertyName="Text" Expression="?dateend" />
           </ExpressionBindings>
           <StylePriority Ref="75" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="76" ControlType="XRLabel" Name="label4" TextFormatString="{0:d}" Multiline="true" Text="label4" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="76.51427,10" Padding="2,2,0,0,100">
+        <Item2 Ref="76" ControlType="XRLabel" Name="label4" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label4" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="76.51427,10" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="77" EventName="BeforePrint" PropertyName="Text" Expression="?datestart" />
           </ExpressionBindings>

@@ -11,12 +11,12 @@
   <Bands>
     <Item1 Ref="9" ControlType="TopMarginBand" Name="topMarginBand1" HeightF="199.833328">
       <Controls>
-        <Item1 Ref="10" ControlType="XRLabel" Name="label18" TextFormatString="{0:d}" Multiline="true" Text="label18" SizeF="100,23" LocationFloat="55.919735,145.65094" Padding="2,2,0,0,100">
+        <Item1 Ref="10" ControlType="XRLabel" Name="label18" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label18" SizeF="100,23" LocationFloat="55.919735,145.65094" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="11" EventName="BeforePrint" PropertyName="Text" Expression="?startDate" />
           </ExpressionBindings>
         </Item1>
-        <Item2 Ref="12" ControlType="XRLabel" Name="label4" TextFormatString="{0:d}" Multiline="true" Text="label4" SizeF="100,23" LocationFloat="55.9197426,168.650925" Padding="2,2,0,0,100">
+        <Item2 Ref="12" ControlType="XRLabel" Name="label4" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label4" SizeF="100,23" LocationFloat="55.9197426,168.650925" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="13" EventName="BeforePrint" PropertyName="Text" Expression="?endDate" />
           </ExpressionBindings>
