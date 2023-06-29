@@ -20,13 +20,14 @@ namespace ServerSide.Reports {
             this.bottomMarginBand1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.BottomMarginBand>("bottomMarginBand1");
             this.PageHeader = reportInitializer.GetControl<DevExpress.XtraReports.UI.PageHeaderBand>("PageHeader");
             this.GroupHeader1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.GroupHeaderBand>("GroupHeader1");
-            this.label5 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label5");
+            this.GroupFooter1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.GroupFooterBand>("GroupFooter1");
             this.pictureBox1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRPictureBox>("pictureBox1");
             this.label25 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label25");
             this.label24 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label24");
             this.label23 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label23");
             this.label22 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label22");
             this.label21 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label21");
+            this.label8 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label8");
             this.label20 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label20");
             this.label17 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label17");
             this.label18 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label18");
@@ -37,6 +38,8 @@ namespace ServerSide.Reports {
             this.label14 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label14");
             this.pageInfo1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRPageInfo>("pageInfo1");
             this.pageInfo2 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRPageInfo>("pageInfo2");
+            this.label5 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label5");
+            this.label26 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label26");
             this.label10 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label10");
             this.label7 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label7");
             this.label6 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label6");
@@ -47,9 +50,6 @@ namespace ServerSide.Reports {
             this.xrLabel1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("xrLabel1");
             this.label15 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label15");
             this.label9 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label9");
-            this.label26 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label26");
-            this.label8 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label8");
-            this.GroupFooter1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.GroupFooterBand>("GroupFooter1");
             this.label19 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label19");
 
             // Parameters
@@ -64,13 +64,14 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.UI.BottomMarginBand bottomMarginBand1;
         private DevExpress.XtraReports.UI.PageHeaderBand PageHeader;
         private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader1;
-        private DevExpress.XtraReports.UI.XRLabel label5;
+        private DevExpress.XtraReports.UI.GroupFooterBand GroupFooter1;
         private DevExpress.XtraReports.UI.XRPictureBox pictureBox1;
         private DevExpress.XtraReports.UI.XRLabel label25;
         private DevExpress.XtraReports.UI.XRLabel label24;
         private DevExpress.XtraReports.UI.XRLabel label23;
         private DevExpress.XtraReports.UI.XRLabel label22;
         private DevExpress.XtraReports.UI.XRLabel label21;
+        private DevExpress.XtraReports.UI.XRLabel label8;
         private DevExpress.XtraReports.UI.XRLabel label20;
         private DevExpress.XtraReports.UI.XRLabel label17;
         private DevExpress.XtraReports.UI.XRLabel label18;
@@ -81,6 +82,8 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.UI.XRLabel label14;
         private DevExpress.XtraReports.UI.XRPageInfo pageInfo1;
         private DevExpress.XtraReports.UI.XRPageInfo pageInfo2;
+        private DevExpress.XtraReports.UI.XRLabel label5;
+        private DevExpress.XtraReports.UI.XRLabel label26;
         private DevExpress.XtraReports.UI.XRLabel label10;
         private DevExpress.XtraReports.UI.XRLabel label7;
         private DevExpress.XtraReports.UI.XRLabel label6;
@@ -91,12 +94,9 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.UI.XRLabel xrLabel1;
         private DevExpress.XtraReports.UI.XRLabel label15;
         private DevExpress.XtraReports.UI.XRLabel label9;
+        private DevExpress.XtraReports.UI.XRLabel label19;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
         private DevExpress.XtraReports.Parameters.Parameter startDate;
         private DevExpress.XtraReports.Parameters.Parameter endDate;
-        private DevExpress.XtraReports.UI.XRLabel label26;
-        private DevExpress.XtraReports.UI.XRLabel label8;
-        private DevExpress.XtraReports.UI.GroupFooterBand GroupFooter1;
-        private DevExpress.XtraReports.UI.XRLabel label19;
     }
 }
