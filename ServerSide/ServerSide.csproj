@@ -100,6 +100,9 @@
     <None Remove="Reports\PhotoDailyTransactionsReportNew.repx" />
     <None Remove="Reports\PhotoSalesByCategoryReport.repx" />
     <None Remove="Reports\ProductionStatisticsReport.repx" />
+    <None Remove="Reports\ProjectActivitiesReport.repx" />
+    <None Remove="Reports\projectcostdetailsReport.repx" />
+    <None Remove="Reports\projectScheduleReport.repx" />
     <None Remove="Reports\RecruitmentSelectionJobTitleReport.repx" />
     <None Remove="Reports\RecruitmentSelectReferenceReport.repx" />
     <None Remove="Reports\SalesByCategoryReport.repx" />
@@ -197,6 +200,9 @@
     <EmbeddedResource Include="Reports\PayrollNationalJournalDetailReport.repx" />
     <EmbeddedResource Include="Reports\PayrollSavingSchemesReport.repx" />
     <EmbeddedResource Include="Reports\ProductionStatisticsReport.repx" />
+    <EmbeddedResource Include="Reports\ProjectActivitiesReport.repx" />
+    <EmbeddedResource Include="Reports\projectcostdetailsReport.repx" />
+    <EmbeddedResource Include="Reports\projectScheduleReport.repx" />
     <EmbeddedResource Include="Reports\RecruitmentSelectionJobTitleReport.repx" />
     <EmbeddedResource Include="Reports\RecruitmentSelectReferenceReport.repx" />
     <EmbeddedResource Include="Reports\ScheduleByLocationSummaryReport.repx" />
@@ -728,6 +734,24 @@
     </Compile>
     <Compile Update="Reports\ProductionStatisticsReport.Designer.cs">
       <DependentUpon>ProductionStatisticsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ProjectActivitiesReport.cs">
+      <DependentUpon>ProjectActivitiesReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\ProjectActivitiesReport.Designer.cs">
+      <DependentUpon>ProjectActivitiesReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\projectcostdetailsReport.cs">
+      <DependentUpon>projectcostdetailsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\projectcostdetailsReport.Designer.cs">
+      <DependentUpon>projectcostdetailsReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\projectScheduleReport.cs">
+      <DependentUpon>projectScheduleReport.repx</DependentUpon>
+    </Compile>
+    <Compile Update="Reports\projectScheduleReport.Designer.cs">
+      <DependentUpon>projectScheduleReport.repx</DependentUpon>
     </Compile>
     <Compile Update="Reports\RecruitmentSelectionJobTitleReport.cs">
       <DependentUpon>RecruitmentSelectionJobTitleReport.repx</DependentUpon>

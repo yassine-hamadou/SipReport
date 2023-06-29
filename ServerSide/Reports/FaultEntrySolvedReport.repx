@@ -38,22 +38,22 @@
     </Item1>
     <Item2 Ref="24" ControlType="DetailBand" Name="detailBand1" HeightF="25.000021">
       <SortFields>
-        <Item1 Ref="25" FieldName="Downtime" SortOrder="Descending" />
+        <Item1 Ref="25" FieldName="Downtime" />
       </SortFields>
       <Controls>
-        <Item1 Ref="26" ControlType="XRLabel" Name="label2" Multiline="true" Text="label2" TextAlignment="MiddleLeft" SizeF="301.3985,24.7919712" LocationFloat="144.224564,0.208028153" Padding="2,2,0,0,100">
+        <Item1 Ref="26" ControlType="XRLabel" Name="label2" Multiline="true" Text="label2" TextAlignment="MiddleLeft" SizeF="301.3985,24.7919712" LocationFloat="221.724548,0.208028153" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="27" EventName="BeforePrint" PropertyName="Text" Expression="[equipment]" />
           </ExpressionBindings>
           <StylePriority Ref="28" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="29" ControlType="XRLabel" Name="label1" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="99.24588,24.7919922" LocationFloat="445.623077,0" Padding="2,2,0,0,100">
+        <Item2 Ref="29" ControlType="XRLabel" Name="label1" Multiline="true" Text="label1" TextAlignment="MiddleLeft" SizeF="99.24588,24.7919922" LocationFloat="523.123047,0" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="30" EventName="BeforePrint" PropertyName="Text" Expression="[custodian]" />
           </ExpressionBindings>
           <StylePriority Ref="31" UseTextAlignment="false" />
         </Item2>
-        <Item3 Ref="32" ControlType="XRLabel" Name="label3" TextAlignment="MiddleLeft" SizeF="35.4790039,24.7919731" LocationFloat="108.745552,0" Font="Times New Roman, 8.5pt" Padding="2,2,2,2,100" Borders="None">
+        <Item3 Ref="32" ControlType="XRLabel" Name="label3" TextAlignment="MiddleLeft" SizeF="35.4790039,24.7919731" LocationFloat="186.2456,0" Font="Times New Roman, 8.5pt" Padding="2,2,2,2,100" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="33" EventName="BeforePrint" PropertyName="Text" Expression="[DataSource.CurrentRowIndex]+1" />
           </ExpressionBindings>
@@ -65,19 +65,19 @@
           </ExpressionBindings>
           <StylePriority Ref="37" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item4>
-        <Item5 Ref="38" ControlType="XRLabel" Name="label7" Text="WTime End" TextAlignment="MiddleLeft" SizeF="145.15509,24.7919731" LocationFloat="805.813965,0.208028153" Font="Times New Roman, 8.5pt" Padding="2,2,2,2,100" Borders="None">
+        <Item5 Ref="38" ControlType="XRLabel" Name="label7" Text="WTime End" TextAlignment="MiddleLeft" SizeF="117.655029,24.7919731" LocationFloat="833.314,0.208028153" Font="Times New Roman, 8.5pt" Padding="2,2,2,2,100" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="39" EventName="BeforePrint" PropertyName="Text" Expression="[WTimeEnd]" />
           </ExpressionBindings>
           <StylePriority Ref="40" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item5>
-        <Item6 Ref="41" ControlType="XRLabel" Name="label6" Text="WTime Start" TextAlignment="MiddleLeft" SizeF="128.3891,24.7919731" LocationFloat="677.4249,0.208028153" Font="Times New Roman, 8.5pt" Padding="2,2,2,2,100" Borders="None">
+        <Item6 Ref="41" ControlType="XRLabel" Name="label6" Text="WTime Start" TextAlignment="MiddleLeft" SizeF="105.888977,24.7919731" LocationFloat="727.425049,0" Font="Times New Roman, 8.5pt" Padding="2,2,2,2,100" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="42" EventName="BeforePrint" PropertyName="Text" Expression="[WTimeStart]" />
           </ExpressionBindings>
           <StylePriority Ref="43" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item6>
-        <Item7 Ref="44" ControlType="XRLabel" Name="label11" Text="Down Time" TextAlignment="MiddleLeft" SizeF="132.555969,24.7919712" LocationFloat="544.868958,0" Font="Times New Roman, 8.5pt" Padding="2,2,2,2,100" Borders="None">
+        <Item7 Ref="44" ControlType="XRLabel" Name="label11" Text="Down Time" TextAlignment="MiddleLeft" SizeF="105.055969,24.7919712" LocationFloat="622.368958,0" Font="Times New Roman, 8.5pt" Padding="2,2,2,2,100" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="45" EventName="BeforePrint" PropertyName="Text" Expression="[Downtime]" />
           </ExpressionBindings>
@@ -95,25 +95,25 @@
     </Item3>
     <Item4 Ref="51" ControlType="PageHeaderBand" Name="PageHeader" HeightF="34.62503">
       <Controls>
-        <Item1 Ref="52" ControlType="XRLabel" Name="label13" Text="#" TextAlignment="MiddleLeft" SizeF="41.338913,34.62503" LocationFloat="102.885643,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
+        <Item1 Ref="52" ControlType="XRLabel" Name="label13" Text="#" TextAlignment="MiddleLeft" SizeF="41.338913,34.62503" LocationFloat="180.3857,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="53" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="54" ControlType="XRLabel" Name="label16" TextAlignment="MiddleCenter" SizeF="102.977692,34.6250229" LocationFloat="0,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
+        <Item2 Ref="54" ControlType="XRLabel" Name="label16" TextAlignment="MiddleCenter" SizeF="180.3857,34.6250229" LocationFloat="0,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="55" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item2>
-        <Item3 Ref="56" ControlType="XRLabel" Name="label27" Text="CUSTODIAN" TextAlignment="MiddleLeft" SizeF="99.24588,34.62503" LocationFloat="445.623077,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
+        <Item3 Ref="56" ControlType="XRLabel" Name="label27" Text="CUSTODIAN" TextAlignment="MiddleLeft" SizeF="99.24588,34.62503" LocationFloat="523.1231,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="57" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item3>
-        <Item4 Ref="58" ControlType="XRLabel" Name="label32" Text="START TIME" TextAlignment="MiddleLeft" SizeF="128.389038,34.62503" LocationFloat="677.4249,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
+        <Item4 Ref="58" ControlType="XRLabel" Name="label32" Text="START TIME" TextAlignment="MiddleLeft" SizeF="105.889038,34.62503" LocationFloat="727.425,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="59" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item4>
-        <Item5 Ref="60" ControlType="XRLabel" Name="label14" Text="EQUIPMENT" TextAlignment="MiddleLeft" SizeF="301.3985,34.62503" LocationFloat="144.224564,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
+        <Item5 Ref="60" ControlType="XRLabel" Name="label14" Text="EQUIPMENT" TextAlignment="MiddleLeft" SizeF="301.3985,34.62503" LocationFloat="221.724625,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="61" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item5>
-        <Item6 Ref="62" ControlType="XRLabel" Name="label25" Text="DOWN TIME" TextAlignment="MiddleLeft" SizeF="132.555969,34.62503" LocationFloat="544.868958,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
+        <Item6 Ref="62" ControlType="XRLabel" Name="label25" Text="DOWN TIME" TextAlignment="MiddleLeft" SizeF="105.055969,34.62503" LocationFloat="622.368958,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="63" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item6>
-        <Item7 Ref="64" ControlType="XRLabel" Name="label28" Text="END TIME" TextAlignment="MiddleLeft" SizeF="145.15509,34.62503" LocationFloat="805.813965,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
+        <Item7 Ref="64" ControlType="XRLabel" Name="label28" Text="END TIME" TextAlignment="MiddleLeft" SizeF="117.655029,34.62503" LocationFloat="833.314,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="65" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item7>
         <Item8 Ref="66" ControlType="XRLabel" Name="label29" Text="COMMENT" TextAlignment="MiddleLeft" SizeF="148.030945,34.62503" LocationFloat="950.969055,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top, Bottom">
@@ -158,41 +158,34 @@
         </Item2>
       </Controls>
     </Item6>
-    <Item7 Ref="85" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="34.62503">
-      <Controls>
-        <Item1 Ref="86" ControlType="XRLabel" Name="label8" TextAlignment="MiddleCenter" SizeF="1099,34.62503" LocationFloat="0,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="Top">
-          <StylePriority Ref="87" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
-        </Item1>
-      </Controls>
-    </Item7>
-    <Item8 Ref="88" ControlType="GroupHeaderBand" Name="GroupHeader2" Level="1" HeightF="23">
+    <Item7 Ref="85" ControlType="GroupHeaderBand" Name="GroupHeader2" Level="1" HeightF="23">
       <GroupFields>
-        <Item1 Ref="89" FieldName="LocationID" />
+        <Item1 Ref="86" FieldName="LocationID" />
       </GroupFields>
       <Controls>
-        <Item1 Ref="90" ControlType="XRLabel" Name="label20" Multiline="true" Text="label20" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="76.698,0" Padding="2,2,0,0,100">
+        <Item1 Ref="87" ControlType="XRLabel" Name="label20" Multiline="true" Text="label20" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="76.698,0" Padding="2,2,0,0,100">
           <ExpressionBindings>
-            <Item1 Ref="91" EventName="BeforePrint" PropertyName="Text" Expression="[LocationID]" />
+            <Item1 Ref="88" EventName="BeforePrint" PropertyName="Text" Expression="[LocationID]" />
           </ExpressionBindings>
-          <StylePriority Ref="92" UseTextAlignment="false" />
+          <StylePriority Ref="89" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="93" ControlType="XRLabel" Name="label26" Text="LOCATION:" TextAlignment="MiddleLeft" SizeF="76.698,22.99997" LocationFloat="0,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="None">
-          <StylePriority Ref="94" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        <Item2 Ref="90" ControlType="XRLabel" Name="label26" Text="LOCATION:" TextAlignment="MiddleLeft" SizeF="76.698,22.99997" LocationFloat="0,0" Font="Times New Roman, 8.5pt, style=Bold" BackColor="Transparent" Borders="None">
+          <StylePriority Ref="91" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item2>
       </Controls>
-    </Item8>
+    </Item7>
   </Bands>
   <ComponentStorage>
-    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFBhcmFtZXRlciBOYW1lPSJzdGFydERhdGUiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkRhdGVUaW1lKSg/c3RhcnRkYXRlKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iZW5kRGF0ZSIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uRGF0ZVRpbWUpKD9lbmREYXRlKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iY3VzdG9kaWFuIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5TdHJpbmcpKEpPSU4oP0N1c3RvZGlhbikpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJyZXNvbHV0aW9uVHlwZSIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nKShKT0lOKD9SZXNvbHV0aW9uVHlwZSkpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJ0ZW5hbnRpZCIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nKSg/dGVuYW50aWQpPC9QYXJhbWV0ZXI+PFNxbD5TRUxFQ1QgW0VudHJ5SURdDQogICAgICAsdHJpbShbRmxlZXRJRF0pKyctJmd0OycrDQogICAgICB0cmltKFtWbU1vZGVsXSkrJy0mZ3Q7JysNCiAgICAgIHRyaW0oW1ZtQ2xhc3NdKSBhcyBlcXVpcG1lbnQNCiAgICAgICxbY3VzdG9kaWFuXQ0KICAgICAgLFtEb3duVHlwZV0NCiAgICAgICxbRG93bnRpbWVdDQogICAgICAsW0xvY2F0aW9uSURdDQogICAgICAsW1Jlc29sdXRpb25UeXBlXQ0KICAgICAgLFtEb3duU3RhdHVzXQ0KICAgICAgLFtSZXNvbHV0aW9uSURdDQogICAgICAsW1dUaW1lU3RhcnRdDQogICAgICAsW1dUaW1lRW5kXQ0KICAgICAgLFtDb21tZW50XQ0KICAgICAgLFtTdGF0dXNdDQogICAgICAsW1RlbmFudElkXQ0KICAgICAgLFtyZWZlcmVuY2VJZF0NCiAgICAgICxbRmF1bHREZXRhaWxzXQ0KICAgICAgLFtSZXBvcnRlZERhdGVdIEZST00gW0VuUERCXS5bZGJvXS5bRmF1bHRFbnRyeV0gRkUNCndoZXJlIEZFLkRvd250aW1lIGJldHdlZW4gDQpAc3RhcnREYXRlIGFuZCBAZW5kRGF0ZQ0KYW5kIEZFLmN1c3RvZGlhbiBpbiAoU0VMRUNUIHZhbHVlIEZST00gU1RSSU5HX1NQTElUKEBjdXN0b2RpYW4sJywnKSkNCmFuZCBGRS5SZXNvbHV0aW9uVHlwZSBpbiAoU0VMRUNUIHZhbHVlIEZST00gU1RSSU5HX1NQTElUKEByZXNvbHV0aW9uVHlwZSwnLCcpKQ0KICBhbmQgRkUuVGVuYW50SWQ9QHRlbmFudGlkDQphbmQgRkUuUmVzb2x1dGlvbklEIGlzIG5vdCBudWxsIGFuZCBGRS5XVGltZVN0YXJ0IGlzIG5vdCBudWxsPC9TcWw+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UxIj48VmlldyBOYW1lPSJRdWVyeSI+PEZpZWxkIE5hbWU9IkVudHJ5SUQiIFR5cGU9Ikd1aWQiIC8+PEZpZWxkIE5hbWU9ImVxdWlwbWVudCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJjdXN0b2RpYW4iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRG93blR5cGUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRG93bnRpbWUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJMb2NhdGlvbklEIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlJlc29sdXRpb25UeXBlIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRvd25TdGF0dXMiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iUmVzb2x1dGlvbklEIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IldUaW1lU3RhcnQiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJXVGltZUVuZCIgVHlwZT0iRGF0ZVRpbWUiIC8+PEZpZWxkIE5hbWU9IkNvbW1lbnQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iU3RhdHVzIiBUeXBlPSJJbnQxNiIgLz48RmllbGQgTmFtZT0iVGVuYW50SWQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0icmVmZXJlbmNlSWQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRmF1bHREZXRhaWxzIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlJlcG9ydGVkRGF0ZSIgVHlwZT0iRGF0ZVRpbWUiIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
-    <Item2 Ref="95" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource2" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgVGVuYW50SWQsIE1JTihGRS5GbGVldElEKSwgRkUuY3VzdG9kaWFuIEZST00gW0VuUERCXS5bZGJvXS5bRmF1bHRFbnRyeV0gRkUNCmdyb3VwIGJ5IEZFLmN1c3RvZGlhbiwgVGVuYW50SWQ8L1NxbD48L1F1ZXJ5PjxSZXN1bHRTY2hlbWE+PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxWaWV3IE5hbWU9IlF1ZXJ5Ij48RmllbGQgTmFtZT0iVGVuYW50SWQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uMiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJjdXN0b2RpYW4iIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
-    <Item3 Ref="96" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource3" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTMiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgVGVuYW50SWQsIE1JTihGRS5GbGVldElEKSwgRkUuUmVzb2x1dGlvblR5cGUgRlJPTSBbRW5QREJdLltkYm9dLltGYXVsdEVudHJ5XSBGRQ0KZ3JvdXAgYnkgRkUuUmVzb2x1dGlvblR5cGUsIFRlbmFudElkPC9TcWw+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UzIj48VmlldyBOYW1lPSJRdWVyeSI+PEZpZWxkIE5hbWU9IlRlbmFudElkIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iUmVzb2x1dGlvblR5cGUiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
-    <Item4 Ref="97" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource4" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTQiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgRkUuRG93bnRpbWUgRlJPTSBbRW5QREJdLltkYm9dLltGYXVsdEVudHJ5XSBGRTwvU3FsPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlNCI+PFZpZXcgTmFtZT0iUXVlcnkiPjxGaWVsZCBOYW1lPSJEb3dudGltZSIgVHlwZT0iRGF0ZVRpbWUiIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
-    <Item5 Ref="98" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource5" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTUiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgVGVuYW50SWQgRlJPTSBbRW5wREJdLltkYm9dLltGYXVsdEVudHJ5XTwvU3FsPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlNSI+PFZpZXcgTmFtZT0iUXVlcnkiPjxGaWVsZCBOYW1lPSJUZW5hbnRJZCIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFBhcmFtZXRlciBOYW1lPSJzdGFydERhdGUiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkRhdGVUaW1lKSg/c3RhcnRkYXRlKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iZW5kRGF0ZSIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uRGF0ZVRpbWUpKD9lbmREYXRlKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iY3VzdG9kaWFuIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5TdHJpbmcpKEpPSU4oP0N1c3RvZGlhbikpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJyZXNvbHV0aW9uVHlwZSIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nKShKT0lOKD9SZXNvbHV0aW9uVHlwZSkpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJ0ZW5hbnRpZCIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nKSg/dGVuYW50aWQpPC9QYXJhbWV0ZXI+PFNxbD5TRUxFQ1QgW0VudHJ5SURdDQogICAgICAsdHJpbShbRmxlZXRJRF0pKyctJmd0OycrDQogICAgICB0cmltKFtWbU1vZGVsXSkrJy0mZ3Q7JysNCiAgICAgIHRyaW0oW1ZtQ2xhc3NdKSBhcyBlcXVpcG1lbnQNCiAgICAgICxbY3VzdG9kaWFuXQ0KICAgICAgLFtEb3duVHlwZV0NCiAgICAgICxGT1JNQVQoW0Rvd250aW1lXSwgJ2RkLU1NLXl5JykgQVMgW0Rvd250aW1lXQ0KICAgICAgLFtMb2NhdGlvbklEXQ0KICAgICAgLFtSZXNvbHV0aW9uVHlwZV0NCiAgICAgICxbRG93blN0YXR1c10NCiAgICAgICxbUmVzb2x1dGlvbklEXQ0KICAgICAgLEZPUk1BVChbV1RpbWVTdGFydF0sICdkZC1NTS15eScpIEFTIFtXVGltZVN0YXJ0XQ0KICAgICAgLEZPUk1BVChbV1RpbWVFbmRdLCAnZGQtTU0teXknKSAgYXMgW1dUaW1lRW5kXQ0KICAgICAgLFtDb21tZW50XQ0KICAgICAgLFtTdGF0dXNdDQogICAgICAsW1RlbmFudElkXQ0KICAgICAgLFtyZWZlcmVuY2VJZF0NCiAgICAgICxbRmF1bHREZXRhaWxzXQ0KICAgICAgLFtSZXBvcnRlZERhdGVdIEZST00gW0VuUERCXS5bZGJvXS5bRmF1bHRFbnRyeV0gRkUNCndoZXJlIEZFLkRvd250aW1lIGJldHdlZW4gDQpAc3RhcnREYXRlIGFuZCBAZW5kRGF0ZQ0KYW5kIEZFLmN1c3RvZGlhbiBpbiAoU0VMRUNUIHZhbHVlIEZST00gU1RSSU5HX1NQTElUKEBjdXN0b2RpYW4sJywnKSkNCmFuZCBGRS5SZXNvbHV0aW9uVHlwZSBpbiAoU0VMRUNUIHZhbHVlIEZST00gU1RSSU5HX1NQTElUKEByZXNvbHV0aW9uVHlwZSwnLCcpKQ0KICBhbmQgRkUuVGVuYW50SWQ9QHRlbmFudGlkDQphbmQgRkUuUmVzb2x1dGlvbklEIGlzIG5vdCBudWxsIGFuZCBGRS5XVGltZVN0YXJ0IGlzIG5vdCBudWxsPC9TcWw+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UxIj48VmlldyBOYW1lPSJRdWVyeSI+PEZpZWxkIE5hbWU9IkVudHJ5SUQiIFR5cGU9Ikd1aWQiIC8+PEZpZWxkIE5hbWU9ImVxdWlwbWVudCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJjdXN0b2RpYW4iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRG93blR5cGUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRG93bnRpbWUiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJMb2NhdGlvbklEIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlJlc29sdXRpb25UeXBlIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRvd25TdGF0dXMiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iUmVzb2x1dGlvbklEIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IldUaW1lU3RhcnQiIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJXVGltZUVuZCIgVHlwZT0iRGF0ZVRpbWUiIC8+PEZpZWxkIE5hbWU9IkNvbW1lbnQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iU3RhdHVzIiBUeXBlPSJJbnQxNiIgLz48RmllbGQgTmFtZT0iVGVuYW50SWQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0icmVmZXJlbmNlSWQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRmF1bHREZXRhaWxzIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlJlcG9ydGVkRGF0ZSIgVHlwZT0iRGF0ZVRpbWUiIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
+    <Item2 Ref="92" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource2" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgVGVuYW50SWQsIE1JTihGRS5GbGVldElEKSwgRkUuY3VzdG9kaWFuIEZST00gW0VuUERCXS5bZGJvXS5bRmF1bHRFbnRyeV0gRkUNCmdyb3VwIGJ5IEZFLmN1c3RvZGlhbiwgVGVuYW50SWQ8L1NxbD48L1F1ZXJ5PjxSZXN1bHRTY2hlbWE+PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxWaWV3IE5hbWU9IlF1ZXJ5Ij48RmllbGQgTmFtZT0iVGVuYW50SWQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ29sdW1uMiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJjdXN0b2RpYW4iIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
+    <Item3 Ref="93" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource3" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTMiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgVGVuYW50SWQsIE1JTihGRS5GbGVldElEKSwgRkUuUmVzb2x1dGlvblR5cGUgRlJPTSBbRW5QREJdLltkYm9dLltGYXVsdEVudHJ5XSBGRQ0KZ3JvdXAgYnkgRkUuUmVzb2x1dGlvblR5cGUsIFRlbmFudElkPC9TcWw+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UzIj48VmlldyBOYW1lPSJRdWVyeSI+PEZpZWxkIE5hbWU9IlRlbmFudElkIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNvbHVtbjIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iUmVzb2x1dGlvblR5cGUiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
+    <Item4 Ref="94" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource4" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTQiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgRkUuRG93bnRpbWUgRlJPTSBbRW5QREJdLltkYm9dLltGYXVsdEVudHJ5XSBGRTwvU3FsPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlNCI+PFZpZXcgTmFtZT0iUXVlcnkiPjxGaWVsZCBOYW1lPSJEb3dudGltZSIgVHlwZT0iRGF0ZVRpbWUiIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
+    <Item5 Ref="95" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource5" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTUiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgVGVuYW50SWQgRlJPTSBbRW5wREJdLltkYm9dLltGYXVsdEVudHJ5XTwvU3FsPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlNSI+PFZpZXcgTmFtZT0iUXVlcnkiPjxGaWVsZCBOYW1lPSJUZW5hbnRJZCIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
   </ComponentStorage>
   <ObjectStorage>
-    <Item1 Ref="3" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-98" DataMember="Query" ValueMember="TenantId" DisplayMember="TenantId" />
-    <Item2 Ref="6" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-96" DataMember="Query" ValueMember="ResolutionType" DisplayMember="ResolutionType" FilterString="[TenantId] = ?tenantid" />
-    <Item3 Ref="8" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-95" DataMember="Query" ValueMember="custodian" DisplayMember="custodian" FilterString="[TenantId] = ?tenantid" />
+    <Item1 Ref="3" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-95" DataMember="Query" ValueMember="TenantId" DisplayMember="TenantId" />
+    <Item2 Ref="6" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-93" DataMember="Query" ValueMember="ResolutionType" DisplayMember="ResolutionType" FilterString="[TenantId] = ?tenantid" />
+    <Item3 Ref="8" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-92" DataMember="Query" ValueMember="custodian" DisplayMember="custodian" FilterString="[TenantId] = ?tenantid" />
     <Item4 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v21.2" Ref="10" Content="System.DateTime" Type="System.Type" />
   </ObjectStorage>
 </XtraReportsLayoutSerializer>

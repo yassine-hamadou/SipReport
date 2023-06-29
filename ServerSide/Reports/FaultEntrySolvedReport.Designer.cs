@@ -49,10 +49,8 @@ namespace ServerSide.Reports {
             this.label19 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label19");
             this.label17 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label17");
             this.label15 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label15");
-            this.label8 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label8");
             this.label20 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label20");
             this.label26 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label26");
-            this.GroupFooter1 = reportInitializer.GetControl<DevExpress.XtraReports.UI.GroupFooterBand>("GroupFooter1");
 
             // Parameters
             this.tenantid = reportInitializer.GetParameter("tenantid");
@@ -102,7 +100,6 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.UI.XRLabel label19;
         private DevExpress.XtraReports.UI.XRLabel label17;
         private DevExpress.XtraReports.UI.XRLabel label15;
-        private DevExpress.XtraReports.UI.XRLabel label8;
         private DevExpress.XtraReports.UI.XRLabel label20;
         private DevExpress.XtraReports.UI.XRLabel label26;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
@@ -115,6 +112,5 @@ namespace ServerSide.Reports {
         private DevExpress.XtraReports.Parameters.Parameter startdate;
         private DevExpress.XtraReports.Parameters.Parameter endDate;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource4;
-        private DevExpress.XtraReports.UI.GroupFooterBand GroupFooter1;
     }
 }
