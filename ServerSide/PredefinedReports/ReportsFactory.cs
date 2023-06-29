@@ -75,7 +75,10 @@ namespace ServerSide.PredefinedReports {
             ["AllMeteringReport"] =()=> new AllMeteringReport(),
             ["AllSchedulesReport"] =()=> new AllSchedulesReport(),
             ["AllfaultsReport"]=()=> new AllfaultsReport(),
-            ["AllBacklogsReport"] =()=> new AllBacklogsReport() 
+            ["AllBacklogsReport"] =()=> new AllBacklogsReport(),
+            ["projectcostdetailsReport"] =()=> new projectcostdetailsReport(),
+            ["projectScheduleReport"] =()=> new projectScheduleReport(),
+            ["ProjectActivitiesReport"] =()=>new ProjectActivitiesReport()
 
 
         };
