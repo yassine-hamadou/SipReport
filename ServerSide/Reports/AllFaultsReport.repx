@@ -5,7 +5,7 @@
   </Extensions>
   <Parameters>
     <Item1 Ref="5" Description="Company" ValueSourceSettings="#Ref-3" Name="TenantId" />
-    <Item2 Ref="7" Description="startDate" ValueInfo="2023-06-07" Name="startDate" Type="#Ref-6">
+    <Item2 Ref="7" Description="Start Date" ValueInfo="2023-06-07" Name="startDate" Type="#Ref-6">
       <ExpressionBindings>
         <Item1 Ref="8" PropertyName="Value" Expression="Today()" />
       </ExpressionBindings>

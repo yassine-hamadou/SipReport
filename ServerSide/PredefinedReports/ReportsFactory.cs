@@ -78,7 +78,9 @@ namespace ServerSide.PredefinedReports {
             ["AllBacklogsReport"] =()=> new AllBacklogsReport(),
             ["projectcostdetailsReport"] =()=> new projectcostdetailsReport(),
             ["projectScheduleReport"] =()=> new projectScheduleReport(),
-            ["ProjectActivitiesReport"] =()=>new ProjectActivitiesReport()
+            ["ProjectActivitiesReport"] =()=>new ProjectActivitiesReport(),
+            ["MemberTeesReport"] =()=>new  MemberTeesReport(),
+            ["EventsReport"] =()=> new EventsReport()
 
 
         };
