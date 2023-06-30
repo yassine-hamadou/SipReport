@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<XtraReportsLayoutSerializer SerializerVersion="21.2.6.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="TrainingDevelopmentBySummaryReport" Margins="0, 0, 129, 100" PageWidth="850" PageHeight="1100" Version="21.2" DataMember="Query" DataSource="#Ref-0">
+<XtraReportsLayoutSerializer SerializerVersion="21.2.6.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v21.2, Version=21.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="TrainingDevelopmentBySummaryReport" Margins="0, 0, 129, 44" PageWidth="850" PageHeight="1100" Version="21.2" DataMember="Query" DataSource="#Ref-0">
   <Extensions>
     <Item1 Ref="2" Key="VSReportExtInfo" Value=".repx" />
   </Extensions>
@@ -26,7 +26,7 @@
     </Item1>
     <Item2 Ref="15" ControlType="DetailBand" Name="detailBand1" HeightF="21.5831032">
       <Controls>
-        <Item1 Ref="16" ControlType="XRLabel" Name="label3" Multiline="true" Text="Paygroup" TextAlignment="MiddleLeft" SizeF="323.333466,21.083353" LocationFloat="261.8466,0.499750763" Font="Times New Roman, 8.25pt, charSet=0" Padding="2,2,2,2,100">
+        <Item1 Ref="16" ControlType="XRLabel" Name="label3" Multiline="true" Text="Paygroup" TextAlignment="MiddleLeft" SizeF="323.333466,21.083353" LocationFloat="261.846619,0" Font="Times New Roman, 8.25pt, charSet=0" Padding="2,2,2,2,100">
           <ExpressionBindings>
             <Item1 Ref="17" EventName="BeforePrint" PropertyName="Text" Expression="[departmentName]" />
           </ExpressionBindings>
@@ -40,7 +40,7 @@
         </Item2>
       </Controls>
     </Item2>
-    <Item3 Ref="22" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="100.000015">
+    <Item3 Ref="22" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="43.8333359">
       <Controls>
         <Item1 Ref="23" ControlType="XRPageInfo" Name="pageInfo1" SizeF="100,23" LocationFloat="700.8333,20.833334" Padding="2,2,0,0,100" />
         <Item2 Ref="24" ControlType="XRPageInfo" Name="pageInfo2" PageInfo="DateTime" TextFormatString="{0:dddd, MMMM d, yyyy hh:mm tt}" TextAlignment="MiddleLeft" SizeF="250.179932,18" LocationFloat="0,10" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" ForeColor="Black" Padding="2,2,0,0,100">
@@ -64,16 +64,16 @@
     </Item5>
     <Item6 Ref="33" ControlType="GroupHeaderBand" Name="GroupHeader3" RepeatEveryPage="true" Level="2" HeightF="21.0833435">
       <Controls>
-        <Item1 Ref="34" ControlType="XRLabel" Name="label5" Multiline="true" TextAlignment="MiddleLeft" SizeF="74.34662,21.0833435" LocationFloat="774.1666,0" Font="Times New Roman, 8.25pt, style=Bold" Padding="3,3,3,3,100" Borders="Top, Bottom">
+        <Item1 Ref="34" ControlType="XRLabel" Name="label9" Multiline="true" Text="EMPLOYEE COUNT  " TextAlignment="MiddleRight" SizeF="215.653259,21.0833435" LocationFloat="558.513367,0" Font="Times New Roman, 8.25pt, style=Bold" Padding="3,3,3,3,100" Borders="Top, Bottom">
           <StylePriority Ref="35" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="36" ControlType="XRLabel" Name="label10" Multiline="true" TextAlignment="MiddleLeft" SizeF="261.8466,21.08334" LocationFloat="0,0" Font="Times New Roman, 8.25pt, style=Bold" Padding="3,3,3,3,100" Borders="Top, Bottom">
+        <Item2 Ref="36" ControlType="XRLabel" Name="label5" Multiline="true" TextAlignment="MiddleLeft" SizeF="74.34662,21.0833435" LocationFloat="774.1666,0" Font="Times New Roman, 8.25pt, style=Bold" Padding="3,3,3,3,100" Borders="Top, Bottom">
           <StylePriority Ref="37" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item2>
-        <Item3 Ref="38" ControlType="XRLabel" Name="label1" Multiline="true" Text="DEPARTMENT" TextAlignment="MiddleLeft" SizeF="296.666779,21.0833435" LocationFloat="261.8466,0" Font="Times New Roman, 8.25pt, style=Bold" Padding="3,3,3,3,100" Borders="Top, Bottom">
+        <Item3 Ref="38" ControlType="XRLabel" Name="label10" Multiline="true" TextAlignment="MiddleLeft" SizeF="261.8466,21.08334" LocationFloat="0,0" Font="Times New Roman, 8.25pt, style=Bold" Padding="3,3,3,3,100" Borders="Top, Bottom">
           <StylePriority Ref="39" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item3>
-        <Item4 Ref="40" ControlType="XRLabel" Name="label9" Multiline="true" Text="EMPLOYEE COUNT  " TextAlignment="MiddleRight" SizeF="215.653259,21.0833435" LocationFloat="558.513367,0" Font="Times New Roman, 8.25pt, style=Bold" Padding="3,3,3,3,100" Borders="Top, Bottom">
+        <Item4 Ref="40" ControlType="XRLabel" Name="label1" Multiline="true" Text="DEPARTMENT" TextAlignment="MiddleLeft" SizeF="296.666779,21.0833435" LocationFloat="261.846558,0" Font="Times New Roman, 8.25pt, style=Bold" Padding="3,3,3,3,100" Borders="Top, Bottom">
           <StylePriority Ref="41" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item4>
       </Controls>

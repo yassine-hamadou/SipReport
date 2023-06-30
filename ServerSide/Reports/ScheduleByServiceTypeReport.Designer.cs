@@ -43,9 +43,15 @@ namespace ServerSide.Reports {
             this.label25 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label25");
             this.label16 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label16");
             this.label10 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label10");
+            this.label14 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label14");
+            this.label15 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label15");
+            this.label17 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label17");
+            this.label18 = reportInitializer.GetControl<DevExpress.XtraReports.UI.XRLabel>("label18");
 
             // Parameters
             this.tenantid = reportInitializer.GetParameter("tenantid");
+            this.startDate = reportInitializer.GetParameter("startDate");
+            this.endDate = reportInitializer.GetParameter("endDate");
 
             // Data Sources
             this.sqlDataSource1 = reportInitializer.GetDataSource<DevExpress.DataAccess.Sql.SqlDataSource>("sqlDataSource1");
@@ -82,5 +88,11 @@ namespace ServerSide.Reports {
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource1;
         private DevExpress.XtraReports.Parameters.Parameter tenantid;
         private DevExpress.DataAccess.Sql.SqlDataSource sqlDataSource2;
+        private DevExpress.XtraReports.Parameters.Parameter startDate;
+        private DevExpress.XtraReports.Parameters.Parameter endDate;
+        private DevExpress.XtraReports.UI.XRLabel label14;
+        private DevExpress.XtraReports.UI.XRLabel label15;
+        private DevExpress.XtraReports.UI.XRLabel label17;
+        private DevExpress.XtraReports.UI.XRLabel label18;
     }
 }
