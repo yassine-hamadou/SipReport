@@ -66,7 +66,7 @@
           </ExpressionBindings>
           <StylePriority Ref="35" UseTextAlignment="false" />
         </Item5>
-        <Item6 Ref="36" ControlType="XRLabel" Name="label5" TextFormatString="{0:d}" Multiline="true" Text="label5" TextAlignment="MiddleLeft" SizeF="98.20831,25.874958" LocationFloat="810.718567,0" Padding="2,2,0,0,100">
+        <Item6 Ref="36" ControlType="XRLabel" Name="label5" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label5" TextAlignment="MiddleLeft" SizeF="98.20831,25.874958" LocationFloat="810.718567,0" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="37" EventName="BeforePrint" PropertyName="Text" Expression="[Downtime]" />
           </ExpressionBindings>

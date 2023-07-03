@@ -147,13 +147,13 @@
         <Item2 Ref="79" FieldName="ResolutionType" />
       </GroupFields>
       <Controls>
-        <Item1 Ref="80" ControlType="XRLabel" Name="label17" Multiline="true" Text="label17" TextAlignment="MiddleLeft" SizeF="100.000015,23.5832939" LocationFloat="141.219,0" Padding="2,2,0,0,100">
+        <Item1 Ref="80" ControlType="XRLabel" Name="label17" Multiline="true" Text="label17" TextAlignment="MiddleLeft" SizeF="100.000015,23.5832939" LocationFloat="140.055923,0.124766029" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="81" EventName="BeforePrint" PropertyName="Text" Expression="[ResolutionType]" />
           </ExpressionBindings>
           <StylePriority Ref="82" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="83" ControlType="XRLabel" Name="label15" Text="RESOLUTION TYPE:" TextAlignment="MiddleLeft" SizeF="113.389252,23.5832939" LocationFloat="27.8297424,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" Borders="None">
+        <Item2 Ref="83" ControlType="XRLabel" Name="label15" Text="RESOLUTION TYPE:" TextAlignment="MiddleLeft" SizeF="113.389252,23.5832939" LocationFloat="26.666666,0.124766029" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" Borders="None">
           <StylePriority Ref="84" UseFont="false" UseBorders="false" UseTextAlignment="false" />
         </Item2>
       </Controls>

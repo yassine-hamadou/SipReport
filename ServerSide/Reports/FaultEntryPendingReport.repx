@@ -41,25 +41,25 @@
         <Item1 Ref="25" FieldName="Downtime" />
       </SortFields>
       <Controls>
-        <Item1 Ref="26" ControlType="XRLabel" Name="label8" Multiline="true" Text="label8" TextAlignment="MiddleLeft" SizeF="87.5,24.7919922" LocationFloat="557.7234,0.708313" Padding="2,2,0,0,100">
+        <Item1 Ref="26" ControlType="XRLabel" Name="label8" Multiline="true" Text="label8" TextAlignment="MiddleLeft" SizeF="87.5,24.7919922" LocationFloat="604.39,0.708313" Padding="2,2,0,0,100">
           <ExpressionBindings>
             <Item1 Ref="27" EventName="BeforePrint" PropertyName="Text" Expression="[custodian]" />
           </ExpressionBindings>
           <StylePriority Ref="28" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="29" ControlType="XRLabel" Name="label16" TextFormatString="{0:dd-MMM-yy}" Text="LocationID" TextAlignment="MiddleLeft" SizeF="147.501831,24.7919712" LocationFloat="793.8109,0.708262146" Font="Times New Roman, 7.8pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
+        <Item2 Ref="29" ControlType="XRLabel" Name="label16" TextFormatString="{0:dd-MMM-yy}" Text="LocationID" TextAlignment="MiddleLeft" SizeF="117.501831,24.79197" LocationFloat="823.8109,0" Font="Times New Roman, 7.8pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="30" EventName="BeforePrint" PropertyName="Text" Expression="[WTimeEnd]" />
           </ExpressionBindings>
           <StylePriority Ref="31" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item2>
-        <Item3 Ref="32" ControlType="XRLabel" Name="label15" TextFormatString="{0:dd-MMM-yy}" Text="LocationID" TextAlignment="MiddleLeft" SizeF="148.556335,24.79197" LocationFloat="645.254639,0.708313" Font="Times New Roman, 7.8pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
+        <Item3 Ref="32" ControlType="XRLabel" Name="label15" TextFormatString="{0:dd-MMM-yy}" Text="LocationID" TextAlignment="MiddleLeft" SizeF="131.889771,24.79197" LocationFloat="691.921265,0.708313" Font="Times New Roman, 7.8pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="33" EventName="BeforePrint" PropertyName="Text" Expression="[WTimeStart]" />
           </ExpressionBindings>
           <StylePriority Ref="34" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item3>
-        <Item4 Ref="35" ControlType="XRLabel" Name="label3" TextAlignment="MiddleLeft" SizeF="20.7576981,24.7919731" LocationFloat="181.561844,0.708262146" Font="Times New Roman, 7.8pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
+        <Item4 Ref="35" ControlType="XRLabel" Name="label3" TextAlignment="MiddleLeft" SizeF="22.5000458,24.7919731" LocationFloat="234.819534,0" Font="Times New Roman, 7.8pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="36" EventName="BeforePrint" PropertyName="Text" Expression="[DataSource.CurrentRowIndex]+1" />
           </ExpressionBindings>
@@ -71,13 +71,13 @@
           </ExpressionBindings>
           <StylePriority Ref="40" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item5>
-        <Item6 Ref="41" ControlType="XRLabel" Name="label11" TextFormatString="{0:dd-MMM-yy}" Text="Down Time" TextAlignment="MiddleLeft" SizeF="145.776062,24.7919712" LocationFloat="411.947327,0" Font="Times New Roman, 7.8pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
+        <Item6 Ref="41" ControlType="XRLabel" Name="label11" TextFormatString="{0:dd-MMM-yy}" Text="Down Time" TextAlignment="MiddleLeft" SizeF="123.276062,24.7919712" LocationFloat="481.113953,0.708313" Font="Times New Roman, 7.8pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="42" EventName="BeforePrint" PropertyName="Text" Expression="[Downtime]" />
           </ExpressionBindings>
           <StylePriority Ref="43" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item6>
-        <Item7 Ref="44" ControlType="XRLabel" Name="label1" Text="FleetID" TextAlignment="MiddleLeft" SizeF="209.627823,24.7919712" LocationFloat="202.319534,0.708313" Font="Times New Roman, 7.8pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
+        <Item7 Ref="44" ControlType="XRLabel" Name="label1" Text="FleetID" TextAlignment="MiddleLeft" SizeF="223.7944,24.7919712" LocationFloat="257.31958,0" Font="Times New Roman, 7.8pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="45" EventName="BeforePrint" PropertyName="Text" Expression="[equipment]" />
           </ExpressionBindings>
@@ -95,25 +95,25 @@
     </Item3>
     <Item4 Ref="51" ControlType="PageHeaderBand" Name="PageHeader" HeightF="34.625042">
       <Controls>
-        <Item1 Ref="52" ControlType="XRLabel" Name="label7" TextAlignment="MiddleCenter" SizeF="181.561844,34.62503" LocationFloat="0,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+        <Item1 Ref="52" ControlType="XRLabel" Name="label7" TextAlignment="MiddleCenter" SizeF="234.819534,34.62503" LocationFloat="0,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="53" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="54" ControlType="XRLabel" Name="label6" Text="CUSTODIAN" TextAlignment="MiddleLeft" SizeF="87.53125,34.62503" LocationFloat="557.7234,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+        <Item2 Ref="54" ControlType="XRLabel" Name="label6" Text="CUSTODIAN" TextAlignment="MiddleLeft" SizeF="87.53125,34.62503" LocationFloat="604.39,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="55" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item2>
-        <Item3 Ref="56" ControlType="XRLabel" Name="label32" Text="START  TIME" TextAlignment="MiddleLeft" SizeF="148.556335,34.62503" LocationFloat="645.254639,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+        <Item3 Ref="56" ControlType="XRLabel" Name="label32" Text="START  TIME" TextAlignment="MiddleLeft" SizeF="131.889709,34.62503" LocationFloat="691.921265,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="57" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item3>
-        <Item4 Ref="58" ControlType="XRLabel" Name="label23" Text="EQUIPMENT " TextAlignment="MiddleLeft" SizeF="209.627792,34.625042" LocationFloat="202.319534,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+        <Item4 Ref="58" ControlType="XRLabel" Name="label23" Text="EQUIPMENT " TextAlignment="MiddleLeft" SizeF="223.794434,34.625042" LocationFloat="257.31955,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="59" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item4>
-        <Item5 Ref="60" ControlType="XRLabel" Name="label25" Text="DOWN TIME" TextAlignment="MiddleLeft" SizeF="145.776031,34.62503" LocationFloat="411.947327,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+        <Item5 Ref="60" ControlType="XRLabel" Name="label25" Text="DOWN TIME" TextAlignment="MiddleLeft" SizeF="123.276062,34.62503" LocationFloat="481.113983,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="61" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item5>
-        <Item6 Ref="62" ControlType="XRLabel" Name="label22" Text="#" TextAlignment="MiddleCenter" SizeF="20.7576981,34.62503" LocationFloat="181.561844,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+        <Item6 Ref="62" ControlType="XRLabel" Name="label22" Text="#" TextAlignment="MiddleCenter" SizeF="22.4999847,34.62503" LocationFloat="234.819534,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="63" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item6>
-        <Item7 Ref="64" ControlType="XRLabel" Name="label14" Text="END TIME" TextAlignment="MiddleLeft" SizeF="147.501831,34.62503" LocationFloat="793.8109,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+        <Item7 Ref="64" ControlType="XRLabel" Name="label14" Text="END TIME" TextAlignment="MiddleLeft" SizeF="117.501831,34.62503" LocationFloat="823.8109,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
           <StylePriority Ref="65" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item7>
         <Item8 Ref="66" ControlType="XRLabel" Name="label29" Text="COMMENT" TextAlignment="MiddleLeft" SizeF="158.687256,34.62503" LocationFloat="941.312744,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">

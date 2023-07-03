@@ -113,32 +113,25 @@
         </Item2>
       </Controls>
     </Item7>
-    <Item8 Ref="55" ControlType="GroupFooterBand" Name="GroupFooter1" HeightF="24.79197">
+    <Item8 Ref="55" ControlType="GroupHeaderBand" Name="GroupHeader5" RepeatEveryPage="true" Level="4" HeightF="25.208231">
       <Controls>
-        <Item1 Ref="56" ControlType="XRLabel" Name="label7" Multiline="true" TextAlignment="MiddleLeft" SizeF="850,24.79197" LocationFloat="0,0" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100" Borders="Bottom">
+        <Item1 Ref="56" ControlType="XRLabel" Name="label10" Multiline="true" Text="CHECK LIST VALUE" TextAlignment="MiddleLeft" SizeF="264.586853,24.79197" LocationFloat="585.413147,0" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100" Borders="Top, Bottom">
           <StylePriority Ref="57" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item1>
-      </Controls>
-    </Item8>
-    <Item9 Ref="58" ControlType="GroupHeaderBand" Name="GroupHeader5" RepeatEveryPage="true" Level="4" HeightF="25.208231">
-      <Controls>
-        <Item1 Ref="59" ControlType="XRLabel" Name="label10" Multiline="true" Text="CHECK LIST VALUE" TextAlignment="MiddleLeft" SizeF="264.586853,24.79197" LocationFloat="585.413147,0" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100" Borders="Top, Bottom">
-          <StylePriority Ref="60" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
-        </Item1>
-        <Item2 Ref="61" ControlType="XRLabel" Name="xrLabel2" Multiline="true" Text="CHECK LIST ITEM" TextAlignment="MiddleLeft" SizeF="250.4408,24.79197" LocationFloat="334.972351,0" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100" Borders="Top, Bottom">
-          <StylePriority Ref="62" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+        <Item2 Ref="58" ControlType="XRLabel" Name="xrLabel2" Multiline="true" Text="CHECK LIST ITEM" TextAlignment="MiddleLeft" SizeF="250.4408,24.79197" LocationFloat="334.972351,0" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100" Borders="Top, Bottom">
+          <StylePriority Ref="59" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item2>
-        <Item3 Ref="63" ControlType="XRLabel" Name="label1" Multiline="true" TextAlignment="MiddleLeft" SizeF="334.972351,24.79197" LocationFloat="0,0" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100" Borders="Top, Bottom">
-          <StylePriority Ref="64" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
+        <Item3 Ref="60" ControlType="XRLabel" Name="label1" Multiline="true" TextAlignment="MiddleLeft" SizeF="334.972351,24.79197" LocationFloat="0,0" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" Padding="3,3,3,3,100" Borders="Top, Bottom">
+          <StylePriority Ref="61" UseFont="false" UsePadding="false" UseBorders="false" UseTextAlignment="false" />
         </Item3>
       </Controls>
-    </Item9>
+    </Item8>
   </Bands>
   <ComponentStorage>
     <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFBhcmFtZXRlciBOYW1lPSJ0ZW5hbnRpZCIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uU3RyaW5nKSg/dGVuYW50aWQpPC9QYXJhbWV0ZXI+PFNxbD5TRUxFQ1QgbW9kZWwubmFtZSBhcyBNb2RlbCwgc2VydmljZXMubmFtZSBhcyBTZXJ2aWNlVHlwZSwgc2VjdGlvbi5uYW1lIGFzIFNlY3Rpb24sIGdyb3Vwcy5OYW1lIGFzIEdyb3VwcyAsaXRlbS5OYW1lIGFzIENoZWNrbGlzdGl0ZW0saXRlbXZhbHVlcy5bTmFtZV0gYXMgQ2hlY2tsaXN0dmFsdWUNCg0KICBGUk9NIFtFbnBEQl0uW2Rib10uW0l0ZW1WYWx1ZXNdDQogIHJpZ2h0IGpvaW4gaXRlbSBvbiBpdGVtdmFsdWVzLkl0ZW1JZD1JdGVtLklkDQogIGpvaW4gR3JvdXBzIG9uIGl0ZW0uZ3JvdXBpZD1ncm91cHMuaWQNCiAgam9pbiBTZWN0aW9uIG9uIEdyb3Vwcy5TZWN0aW9uSWQ9U2VjdGlvbi5JZA0KICBqb2luIHNlcnZpY2VzIG9uIHNlY3Rpb24uc2VydmljZWlkPVNlcnZpY2VzLklkDQogIGpvaW4gbW9kZWwgb24gc2VydmljZXMuTW9kZWw9bW9kZWwuQ29kZQ0Kd2hlcmUgW0VOUERCXS5bZGJvXS5bSXRlbVZhbHVlc10uVGVuYW50SWQ9QHRlbmFudGlkDQpvcmRlciBieSBtb2RlbC5uYW1lLCBzZXJ2aWNlcy5uYW1lLCBzZWN0aW9uLm5hbWUsIGdyb3Vwcw0KICAuTmFtZSxpdGVtdmFsdWVzLltOYW1lXSxpdGVtLk5hbWU8L1NxbD48L1F1ZXJ5PjxSZXN1bHRTY2hlbWE+PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9IlF1ZXJ5Ij48RmllbGQgTmFtZT0iTW9kZWwiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iU2VydmljZVR5cGUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iU2VjdGlvbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJHcm91cHMiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQ2hlY2tsaXN0aXRlbSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDaGVja2xpc3R2YWx1ZSIgVHlwZT0iU3RyaW5nIiAvPjwvVmlldz48L0RhdGFTZXQ+PC9SZXN1bHRTY2hlbWE+PENvbm5lY3Rpb25PcHRpb25zIENsb3NlQ29ubmVjdGlvbj0idHJ1ZSIgLz48L1NxbERhdGFTb3VyY2U+" />
-    <Item2 Ref="65" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource2" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgVGVuYW50SWQgRlJPTSBbRU5QREJdLltkYm9dLkl0ZW1WYWx1ZXM8L1NxbD48L1F1ZXJ5PjxSZXN1bHRTY2hlbWE+PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxWaWV3IE5hbWU9IlF1ZXJ5Ij48RmllbGQgTmFtZT0iVGVuYW50SWQiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
+    <Item2 Ref="62" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource2" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgVGVuYW50SWQgRlJPTSBbRU5QREJdLltkYm9dLkl0ZW1WYWx1ZXM8L1NxbD48L1F1ZXJ5PjxSZXN1bHRTY2hlbWE+PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxWaWV3IE5hbWU9IlF1ZXJ5Ij48RmllbGQgTmFtZT0iVGVuYW50SWQiIFR5cGU9IlN0cmluZyIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
   </ComponentStorage>
   <ObjectStorage>
-    <Item1 Ref="3" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-65" DataMember="Query" ValueMember="TenantId" DisplayMember="TenantId" />
+    <Item1 Ref="3" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-62" DataMember="Query" ValueMember="TenantId" DisplayMember="TenantId" />
   </ObjectStorage>
 </XtraReportsLayoutSerializer>
