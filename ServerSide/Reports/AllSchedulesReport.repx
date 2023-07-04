@@ -36,7 +36,7 @@
     </Item1>
     <Item2 Ref="20" ControlType="DetailBand" Name="detailBand1" HeightF="28.208334">
       <Controls>
-        <Item1 Ref="21" ControlType="XRLabel" Name="label23" TextAlignment="MiddleLeft" SizeF="41.1599159,24.7919731" LocationFloat="0,0" Font="Tahoma, 9pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
+        <Item1 Ref="21" ControlType="XRLabel" Name="label23" TextAlignment="MiddleCenter" SizeF="41.1599159,24.7919731" LocationFloat="0,0" Font="Tahoma, 9pt, charSet=0" Padding="2,2,2,2,100" Borders="None">
           <ExpressionBindings>
             <Item1 Ref="22" EventName="BeforePrint" PropertyName="Text" Expression="[DataSource.CurrentRowIndex]+1" />
           </ExpressionBindings>
@@ -53,106 +53,90 @@
           </ExpressionBindings>
           <StylePriority Ref="28" UseTextAlignment="false" />
         </Item3>
-        <Item4 Ref="29" ControlType="XRLabel" Name="label9" Multiline="true" Text="label9" SizeF="89.21878,23" LocationFloat="155.680969,0" Padding="2,2,0,0,100">
+        <Item4 Ref="29" ControlType="XRLabel" Name="label8" Multiline="true" Text="label8" SizeF="265.231323,23" LocationFloat="41.1599159,0" Padding="2,2,0,0,100">
           <ExpressionBindings>
-            <Item1 Ref="30" EventName="BeforePrint" PropertyName="Text" Expression="[model]" />
+            <Item1 Ref="30" EventName="BeforePrint" PropertyName="Text" Expression="[equipment]" />
           </ExpressionBindings>
         </Item4>
-        <Item5 Ref="31" ControlType="XRLabel" Name="label8" Multiline="true" Text="label8" SizeF="114.521042,23" LocationFloat="41.1599159,0" Padding="2,2,0,0,100">
+        <Item5 Ref="31" ControlType="XRLabel" Name="label14" Multiline="true" Text="label14" SizeF="156.869965,23" LocationFloat="494.965973,0" Padding="2,2,0,0,100">
           <ExpressionBindings>
-            <Item1 Ref="32" EventName="BeforePrint" PropertyName="Text" Expression="[FleetID]" />
+            <Item1 Ref="32" EventName="BeforePrint" PropertyName="Text" Expression="[Responsible]" />
           </ExpressionBindings>
         </Item5>
-        <Item6 Ref="33" ControlType="XRLabel" Name="label14" Multiline="true" Text="label14" SizeF="118.53656,23" LocationFloat="533.2994,0" Padding="2,2,0,0,100">
+        <Item6 Ref="33" ControlType="XRLabel" Name="label12" Multiline="true" Text="label12" SizeF="188.5748,23" LocationFloat="306.391235,0" Padding="2,2,0,0,100">
           <ExpressionBindings>
-            <Item1 Ref="34" EventName="BeforePrint" PropertyName="Text" Expression="[Responsible]" />
+            <Item1 Ref="34" EventName="BeforePrint" PropertyName="Text" Expression="[name]" />
           </ExpressionBindings>
         </Item6>
-        <Item7 Ref="35" ControlType="XRLabel" Name="label12" Multiline="true" Text="label12" SizeF="166.0748,23" LocationFloat="367.224579,0" Padding="2,2,0,0,100">
+        <Item7 Ref="35" ControlType="XRLabel" Name="label7" Multiline="true" Text="label7" SizeF="162.04425,23" LocationFloat="934.95575,0" Padding="2,2,0,0,100">
           <ExpressionBindings>
-            <Item1 Ref="36" EventName="BeforePrint" PropertyName="Text" Expression="[name]" />
+            <Item1 Ref="36" EventName="BeforePrint" PropertyName="Text" Expression="[Description]" />
           </ExpressionBindings>
         </Item7>
-        <Item8 Ref="37" ControlType="XRLabel" Name="label16" Multiline="true" Text="label16" SizeF="122.324829,23" LocationFloat="244.89975,0" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="38" EventName="BeforePrint" PropertyName="Text" Expression="[VmClass]" />
-          </ExpressionBindings>
-        </Item8>
-        <Item9 Ref="39" ControlType="XRLabel" Name="label7" Multiline="true" Text="label7" SizeF="162.04425,23" LocationFloat="934.95575,0" Padding="2,2,0,0,100">
-          <ExpressionBindings>
-            <Item1 Ref="40" EventName="BeforePrint" PropertyName="Text" Expression="[Description]" />
-          </ExpressionBindings>
-        </Item9>
       </Controls>
     </Item2>
-    <Item3 Ref="41" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="39.5000153">
+    <Item3 Ref="37" ControlType="BottomMarginBand" Name="bottomMarginBand1" HeightF="39.5000153">
       <Controls>
-        <Item1 Ref="42" ControlType="XRPageInfo" Name="pageInfo1" SizeF="100,23" LocationFloat="978.125,11.3750143" Padding="2,2,0,0,100" />
-        <Item2 Ref="43" ControlType="XRPageInfo" Name="pageInfo2" PageInfo="DateTime" TextFormatString="{0:dddd, MMMM d, yyyy hh:mm tt}" TextAlignment="MiddleLeft" SizeF="250.179932,18" LocationFloat="6.25,11.3750143" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" ForeColor="Black" Padding="2,2,0,0,100">
-          <StylePriority Ref="44" UseFont="false" UseForeColor="false" UseTextAlignment="false" />
+        <Item1 Ref="38" ControlType="XRPageInfo" Name="pageInfo1" SizeF="100,23" LocationFloat="978.125,11.3750143" Padding="2,2,0,0,100" />
+        <Item2 Ref="39" ControlType="XRPageInfo" Name="pageInfo2" PageInfo="DateTime" TextFormatString="{0:dddd, MMMM d, yyyy hh:mm tt}" TextAlignment="MiddleLeft" SizeF="250.179932,18" LocationFloat="6.25,11.3750143" Font="Times New Roman, 8.25pt, style=Bold, charSet=0" ForeColor="Black" Padding="2,2,0,0,100">
+          <StylePriority Ref="40" UseFont="false" UseForeColor="false" UseTextAlignment="false" />
         </Item2>
       </Controls>
     </Item3>
-    <Item4 Ref="45" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="62.5">
+    <Item4 Ref="41" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="62.5">
       <Controls>
-        <Item1 Ref="46" ControlType="XRLabel" Name="label17" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label17" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="65.05592,39.49998" Padding="2,2,0,0,100">
+        <Item1 Ref="42" ControlType="XRLabel" Name="label17" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label17" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="65.05592,39.49998" Padding="2,2,0,0,100">
           <ExpressionBindings>
-            <Item1 Ref="47" EventName="BeforePrint" PropertyName="Text" Expression="?endDate" />
+            <Item1 Ref="43" EventName="BeforePrint" PropertyName="Text" Expression="?endDate" />
           </ExpressionBindings>
-          <StylePriority Ref="48" UseTextAlignment="false" />
+          <StylePriority Ref="44" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="49" ControlType="XRLabel" Name="label18" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label18" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="76.5142746,3.87500119" Padding="2,2,0,0,100">
+        <Item2 Ref="45" ControlType="XRLabel" Name="label18" TextFormatString="{0:dd-MMM-yy}" Multiline="true" Text="label18" TextAlignment="MiddleLeft" SizeF="100,23" LocationFloat="76.5142746,3.87500119" Padding="2,2,0,0,100">
           <ExpressionBindings>
-            <Item1 Ref="50" EventName="BeforePrint" PropertyName="Text" Expression="?startDate" />
+            <Item1 Ref="46" EventName="BeforePrint" PropertyName="Text" Expression="?startDate" />
           </ExpressionBindings>
-          <StylePriority Ref="51" UseTextAlignment="false" />
+          <StylePriority Ref="47" UseTextAlignment="false" />
         </Item2>
-        <Item3 Ref="52" ControlType="XRLabel" Name="label5" Text="START DATE:" TextAlignment="MiddleLeft" SizeF="76.51427,26.8750134" LocationFloat="0,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0">
-          <StylePriority Ref="53" UseFont="false" UseTextAlignment="false" />
+        <Item3 Ref="48" ControlType="XRLabel" Name="label5" Text="START DATE:" TextAlignment="MiddleLeft" SizeF="76.51427,26.8750134" LocationFloat="0,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0">
+          <StylePriority Ref="49" UseFont="false" UseTextAlignment="false" />
         </Item3>
-        <Item4 Ref="54" ControlType="XRLabel" Name="label13" Text="END DATE:" TextAlignment="MiddleLeft" SizeF="65.05592,26.8750153" LocationFloat="0,35.19017" Font="Times New Roman, 7.8pt, style=Bold, charSet=0">
-          <StylePriority Ref="55" UseFont="false" UseTextAlignment="false" />
+        <Item4 Ref="50" ControlType="XRLabel" Name="label13" Text="END DATE:" TextAlignment="MiddleLeft" SizeF="65.05592,26.8750153" LocationFloat="0,35.19017" Font="Times New Roman, 7.8pt, style=Bold, charSet=0">
+          <StylePriority Ref="51" UseFont="false" UseTextAlignment="false" />
         </Item4>
       </Controls>
     </Item4>
-    <Item5 Ref="56" ControlType="PageHeaderBand" Name="PageHeader" HeightF="35.4166756">
+    <Item5 Ref="52" ControlType="PageHeaderBand" Name="PageHeader" HeightF="35.4166756">
       <Controls>
-        <Item1 Ref="57" ControlType="XRLabel" Name="label6" Text="TOTAL HOURS" TextAlignment="MiddleLeft" SizeF="155.208313,34.62503" LocationFloat="651.835754,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
-          <StylePriority Ref="58" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        <Item1 Ref="53" ControlType="XRLabel" Name="label6" Text="TOTAL HOURS" TextAlignment="MiddleLeft" SizeF="155.208313,34.62503" LocationFloat="651.835754,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+          <StylePriority Ref="54" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item1>
-        <Item2 Ref="59" ControlType="XRLabel" Name="label1" Text="SERVICE" TextAlignment="MiddleLeft" SizeF="166.0748,34.62503" LocationFloat="367.224548,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
-          <StylePriority Ref="60" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        <Item2 Ref="55" ControlType="XRLabel" Name="label1" Text="SERVICE" TextAlignment="MiddleLeft" SizeF="188.574768,34.62503" LocationFloat="306.391235,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+          <StylePriority Ref="56" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item2>
-        <Item3 Ref="61" ControlType="XRLabel" Name="label11" Text="MODEL" TextAlignment="MiddleLeft" SizeF="89.21877,34.62503" LocationFloat="155.680984,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
-          <StylePriority Ref="62" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        <Item3 Ref="57" ControlType="XRLabel" Name="label34" Text="EQUIPMENT" TextAlignment="MiddleLeft" SizeF="265.231323,34.62503" LocationFloat="41.1599159,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+          <StylePriority Ref="58" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item3>
-        <Item4 Ref="63" ControlType="XRLabel" Name="label28" Text="CLASS" TextAlignment="MiddleLeft" SizeF="122.3248,34.62503" LocationFloat="244.89975,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
-          <StylePriority Ref="64" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        <Item4 Ref="59" ControlType="XRLabel" Name="label22" Text="#" TextAlignment="MiddleCenter" SizeF="41.1599159,34.62503" LocationFloat="0,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+          <StylePriority Ref="60" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item4>
-        <Item5 Ref="65" ControlType="XRLabel" Name="label34" Text="EQUIPMENT ID" TextAlignment="MiddleLeft" SizeF="114.521072,34.62503" LocationFloat="41.1599159,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
-          <StylePriority Ref="66" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        <Item5 Ref="61" ControlType="XRLabel" Name="label2" Text="CUSTODIAN" TextAlignment="MiddleLeft" SizeF="156.869781,34.62503" LocationFloat="494.965973,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+          <StylePriority Ref="62" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item5>
-        <Item6 Ref="67" ControlType="XRLabel" Name="label22" Text="#" TextAlignment="MiddleCenter" SizeF="41.1599159,34.62503" LocationFloat="0,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
-          <StylePriority Ref="68" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        <Item6 Ref="63" ControlType="XRLabel" Name="label3" Text="LOCATION" TextAlignment="MiddleLeft" SizeF="127.911377,34.62503" LocationFloat="807.044,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+          <StylePriority Ref="64" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item6>
-        <Item7 Ref="69" ControlType="XRLabel" Name="label2" Text="CUSTODIAN" TextAlignment="MiddleLeft" SizeF="118.5365,34.62503" LocationFloat="533.299255,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
-          <StylePriority Ref="70" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        <Item7 Ref="65" ControlType="XRLabel" Name="label10" Text="DESCRIPTION" TextAlignment="MiddleLeft" SizeF="162.044617,34.62503" LocationFloat="934.9554,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
+          <StylePriority Ref="66" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
         </Item7>
-        <Item8 Ref="71" ControlType="XRLabel" Name="label3" Text="LOCATION" TextAlignment="MiddleLeft" SizeF="127.911377,34.62503" LocationFloat="807.044,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
-          <StylePriority Ref="72" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
-        </Item8>
-        <Item9 Ref="73" ControlType="XRLabel" Name="label10" Text="DESCRIPTION" TextAlignment="MiddleLeft" SizeF="162.044617,34.62503" LocationFloat="934.9554,0" Font="Times New Roman, 7.8pt, style=Bold, charSet=0" BackColor="Transparent" Borders="Top, Bottom">
-          <StylePriority Ref="74" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
-        </Item9>
       </Controls>
     </Item5>
   </Bands>
   <ComponentStorage>
-    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFBhcmFtZXRlciBOYW1lPSJzdGFydGRhdGUiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkRhdGVUaW1lKSg/c3RhcnREYXRlKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iZW5kRGF0ZSIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uRGF0ZVRpbWUpKD9lbmREYXRlKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0idGVuYW50SWQiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZykoP3RlbmFudElkKTwvUGFyYW1ldGVyPjxTcWw+c2VsZWN0IEMuTG9jYXRpb25JZCxDLkZsZWV0SUQsIEMuUmVzcG9uc2libGUsQy5WbUNsYXNzLEMuRGVzY3JpcHRpb24sIEIubmFtZSxBLm5hbWUgYXMgbW9kZWwsc3VtKGRhdGVkaWZmKGhvdXIsQy50aW1lc3RhcnQsQy5UaW1lRW5kKSkgYXMgdG90YWxzY2hlZHVsZUhvdXJzDQpmcm9tIE1vZGVsIEEsU2VydmljZXMgQixGbGVldFNjaGVkdWxlIEMsRXF1aXBtZW50IEQNCndoZXJlIEMuRmxlZXRJRD1ELkVxdWlwbWVudF9pZCBhbmQgRC5Nb2RlbF9pZD1BLk1vZGVsX2lkIGFuZCBCLklkPUMuU2VydmljZVR5cGVJZCBBTkQgQy5UZW5hbnRJZD1AdGVuYW50SWQgYW5kIEMuVGltZVN0YXJ0IGJldHdlZW4gQHN0YXJ0RGF0ZSBhbmQgQGVuZERhdGUgYW5kIEMuVGltZUVuZCBiZXR3ZWVuIEBzdGFydERhdGUgYW5kIEBlbmREYXRlDQpncm91cCBieSBCLm5hbWUsQS5uYW1lLEMuRmxlZXRJRCwgQy5SZXNwb25zaWJsZSxDLlZtQ2xhc3MsQy5EZXNjcmlwdGlvbiwgQy5Mb2NhdGlvbklkDQpvcmRlciBieSBCLm5hbWUsQS5uYW1lPC9TcWw+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UxIj48VmlldyBOYW1lPSJRdWVyeSI+PEZpZWxkIE5hbWU9IkxvY2F0aW9uSWQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iRmxlZXRJRCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJSZXNwb25zaWJsZSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJWbUNsYXNzIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkRlc2NyaXB0aW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Im5hbWUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0ibW9kZWwiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0idG90YWxzY2hlZHVsZUhvdXJzIiBUeXBlPSJJbnQzMiIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
-    <Item2 Ref="75" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource2" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgRElTVElOQ1QgVGVuYW50SWQgRlJPTSBGYXVsdEVudHJ5PC9TcWw+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UyIj48VmlldyBOYW1lPSJRdWVyeSI+PEZpZWxkIE5hbWU9IlRlbmFudElkIiBUeXBlPSJTdHJpbmciIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFBhcmFtZXRlciBOYW1lPSJzdGFydGRhdGUiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkRhdGVUaW1lKSg/c3RhcnREYXRlKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iZW5kRGF0ZSIgVHlwZT0iRGV2RXhwcmVzcy5EYXRhQWNjZXNzLkV4cHJlc3Npb24iPihTeXN0ZW0uRGF0ZVRpbWUpKD9lbmREYXRlKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0idGVuYW50SWQiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZykoP3RlbmFudElkKTwvUGFyYW1ldGVyPjxTcWw+c2VsZWN0IEMuTG9jYXRpb25JZCx0cmltKEMuRmxlZXRJRCkrJy0mZ3Q7Jyt0cmltKEEubmFtZSkrJy0mZ3Q7Jyt0cmltKEMuVm1DbGFzcykgYXMgZXF1aXBtZW50ICwgQy5SZXNwb25zaWJsZSxDLlZtQ2xhc3MsQy5EZXNjcmlwdGlvbiwgQi5uYW1lLEEubmFtZSBhcyBtb2RlbCxzdW0oZGF0ZWRpZmYoaG91cixDLnRpbWVzdGFydCxDLlRpbWVFbmQpKSBhcyB0b3RhbHNjaGVkdWxlSG91cnMNCmZyb20gTW9kZWwgQSxTZXJ2aWNlcyBCLEZsZWV0U2NoZWR1bGUgQyxFcXVpcG1lbnQgRA0Kd2hlcmUgQy5GbGVldElEPUQuRXF1aXBtZW50X2lkIGFuZCBELk1vZGVsX2lkPUEuTW9kZWxfaWQgYW5kIEIuSWQ9Qy5TZXJ2aWNlVHlwZUlkIEFORCBDLlRlbmFudElkPUB0ZW5hbnRJZCBhbmQgQy5UaW1lU3RhcnQgYmV0d2VlbiBAc3RhcnREYXRlIGFuZCBAZW5kRGF0ZSBhbmQgQy5UaW1lRW5kIGJldHdlZW4gQHN0YXJ0RGF0ZSBhbmQgQGVuZERhdGUNCmdyb3VwIGJ5IEIubmFtZSxBLm5hbWUsQy5GbGVldElELCBDLlJlc3BvbnNpYmxlLEMuVm1DbGFzcyxDLkRlc2NyaXB0aW9uLCBDLkxvY2F0aW9uSWQNCm9yZGVyIGJ5IEIubmFtZSxBLm5hbWU8L1NxbD48L1F1ZXJ5PjxSZXN1bHRTY2hlbWE+PERhdGFTZXQgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxWaWV3IE5hbWU9IlF1ZXJ5Ij48RmllbGQgTmFtZT0iTG9jYXRpb25JZCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJlcXVpcG1lbnQiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iUmVzcG9uc2libGUiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVm1DbGFzcyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEZXNjcmlwdGlvbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJuYW1lIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Im1vZGVsIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9InRvdGFsc2NoZWR1bGVIb3VycyIgVHlwZT0iSW50MzIiIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
+    <Item2 Ref="67" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v21.2" Name="sqlDataSource2" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTIiPjxDb25uZWN0aW9uIE5hbWU9IkVucENvbm5lY3Rpb25TdHJpbmciIEZyb21BcHBDb25maWc9InRydWUiIC8+PFF1ZXJ5IFR5cGU9IkN1c3RvbVNxbFF1ZXJ5IiBOYW1lPSJRdWVyeSI+PFNxbD5TRUxFQ1QgRElTVElOQ1QgVGVuYW50SWQgRlJPTSBGYXVsdEVudHJ5PC9TcWw+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UyIj48VmlldyBOYW1lPSJRdWVyeSI+PEZpZWxkIE5hbWU9IlRlbmFudElkIiBUeXBlPSJTdHJpbmciIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
   </ComponentStorage>
   <ObjectStorage>
-    <Item1 Ref="3" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-75" DataMember="Query" ValueMember="TenantId" DisplayMember="TenantId" />
+    <Item1 Ref="3" ObjectType="DevExpress.XtraReports.Parameters.DynamicListLookUpSettings, DevExpress.Printing.v21.2.Core" DataSource="#Ref-67" DataMember="Query" ValueMember="TenantId" DisplayMember="TenantId" />
     <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v21.2" Ref="6" Content="System.DateTime" Type="System.Type" />
   </ObjectStorage>
 </XtraReportsLayoutSerializer>

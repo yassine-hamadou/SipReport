@@ -9,5 +9,10 @@ namespace ServerSide.Reports
         {
             InitializeComponent();
         }
+
+        private void AppraisalPerformanceSummaryReport_BeforePrint(object sender, System.Drawing.Printing.PrintEventArgs e)
+        {
+
+        }
     }
 }
